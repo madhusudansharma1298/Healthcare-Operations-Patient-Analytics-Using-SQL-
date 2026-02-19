@@ -32,6 +32,11 @@ This project solves these issues using structured SQL analysis.
 
 ## Database Schema
 
+### ER Diagram
+
+![ER Diagram](er_diagram.png)
+
+
 ### Patients Table
 - patient_id (Primary Key)
 - name
