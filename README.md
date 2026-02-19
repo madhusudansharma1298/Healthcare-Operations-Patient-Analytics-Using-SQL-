@@ -58,6 +58,18 @@ This project solves these issues using structured SQL analysis.
 
 ---
 
+## Dataset Information
+
+The project uses three relational datasets:
+
+- patients.csv
+- hospitals.csv
+- treatments.csv
+
+The datasets simulate healthcare operations data and are structured using primary and foreign key relationships.
+
+---
+
 ## Key Analysis Performed
 
 ### Patient Demographics Analysis
