@@ -5,6 +5,8 @@ Healthcare organizations generate massive amounts of operational and treatment d
 
 The goal of this analysis is to support data-driven decision-making in healthcare management.
 
+---
+
 ## Business Problem
 Hospital administrators often struggle with:
 - Unequal workload distribution
@@ -15,6 +17,8 @@ Hospital administrators often struggle with:
 
 This project solves these issues using structured SQL analysis.
 
+---
+
 ## Tools & Technologies Used
 - MySQL
 - SQL Joins (INNER JOIN)
@@ -23,6 +27,8 @@ This project solves these issues using structured SQL analysis.
 - GROUP BY & ORDER BY
 - Date Functions (DATEDIFF)
 - Relational Data Modeling
+
+---
 
 ## Database Schema
 
@@ -49,6 +55,8 @@ This project solves these issues using structured SQL analysis.
 - discharge_date
 - cost
 - outcome
+
+---
 
 ## Key Analysis Performed
 
