@@ -82,12 +82,17 @@ Analyzed gender distribution and average age trends.
 
 ### Disease Frequency Analysis
 Identified high-burden diseases affecting infrastructure demand.
+![Disease_Freq](disease_freq.png)
+
 
 ### Revenue Contribution by Hospital
 Evaluated hospital-wise revenue and patient volume.
+![Revenue Output](revenue_output.png)
 
 ### Treatment Cost Segmentation
 Classified cases into Low / Medium / High cost categories.
+![Treatment_cost](Treatment_cost.png)
+
 
 ### Treatment Success Rate Analysis
 Measured recovery percentage across hospitals.
