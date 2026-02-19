@@ -1,0 +1,1001 @@
+treatment_id,patient_id,hospital_id,doctor,disease,admission_date,discharge_date,cost,outcome
+1,1,1,Dr. Reddy,Typhoid,2024-07-11,2024-07-19,95146,Referred
+2,2,4,Dr. Sinha,Diabetes,2024-03-20,2024-04-04,90403,Death
+3,3,3,Dr. Sinha,Migraine,2024-10-16,2024-10-29,85200,Referred
+4,4,6,Dr. Bhatia,Asthma,2024-07-30,2024-08-18,78080,Referred
+5,5,2,Dr. Sinha,Tuberculosis,2024-05-09,2024-05-20,80713,Referred
+6,6,6,Dr. Bhatia,Hypertension,2024-12-03,2024-12-08,35116,Referred
+7,7,6,Dr. Kapoor,Diabetes,2024-04-19,2024-05-07,57502,Referred
+8,8,5,Dr. Reddy,Typhoid,2024-03-23,2024-04-06,88345,Recovered
+9,9,1,Dr. Kapoor,Tuberculosis,2024-11-03,2024-11-18,16552,Recovered
+10,10,3,Dr. Kapoor,Heart Disease,2024-02-10,2024-02-13,99960,Referred
+11,11,4,Dr. Reddy,COVID-19,2024-12-30,2025-01-02,27973,Death
+12,12,4,Dr. Bhatia,Typhoid,2024-04-13,2024-05-01,42487,Recovered
+13,13,1,Dr. Reddy,Asthma,2024-11-10,2024-11-17,93345,Recovered
+14,14,3,Dr. Kapoor,Typhoid,2024-03-21,2024-03-25,41167,Referred
+15,15,3,Dr. Iyer,Migraine,2024-07-26,2024-08-15,31255,Death
+16,16,1,Dr. Iyer,Diabetes,2024-02-16,2024-03-06,42289,Death
+17,17,5,Dr. Reddy,Heart Disease,2024-06-26,2024-07-06,34661,Death
+18,18,2,Dr. Bhatia,Migraine,2024-10-21,2024-10-23,39223,Recovered
+19,19,4,Dr. Reddy,Diabetes,2024-10-13,2024-10-17,70951,Referred
+20,20,3,Dr. Sharma,COVID-19,2024-10-02,2024-10-22,37786,Death
+21,21,4,Dr. Bhatia,Tuberculosis,2024-05-04,2024-05-16,65142,Death
+22,22,4,Dr. Reddy,Typhoid,2024-09-03,2024-09-08,38792,Recovered
+23,23,4,Dr. Iyer,Asthma,2024-12-12,2024-12-21,46383,Referred
+24,24,3,Dr. Reddy,Typhoid,2024-12-24,2025-01-03,37539,Referred
+25,25,1,Dr. Bhatia,Heart Disease,2024-02-08,2024-02-27,28394,Referred
+26,26,3,Dr. Sinha,Asthma,2024-10-20,2024-10-30,28957,Death
+27,27,6,Dr. Kapoor,Tuberculosis,2024-04-12,2024-04-21,36726,Referred
+28,28,2,Dr. Kapoor,Asthma,2024-05-07,2024-05-20,25446,Recovered
+29,29,1,Dr. Sharma,Tuberculosis,2024-11-10,2024-11-12,75972,Recovered
+30,30,4,Dr. Sinha,Heart Disease,2024-09-09,2024-09-29,41009,Referred
+31,31,2,Dr. Reddy,COVID-19,2024-07-22,2024-07-31,80584,Recovered
+32,32,1,Dr. Reddy,Migraine,2024-09-01,2024-09-20,9268,Death
+33,33,3,Dr. Bhatia,Hypertension,2024-08-22,2024-08-27,96520,Death
+34,34,4,Dr. Sinha,Typhoid,2024-01-07,2024-01-15,54732,Death
+35,35,1,Dr. Sinha,Heart Disease,2024-11-09,2024-11-19,29530,Death
+36,36,3,Dr. Kapoor,COVID-19,2024-08-29,2024-09-10,52962,Recovered
+37,37,4,Dr. Bhatia,Asthma,2024-08-02,2024-08-15,52851,Referred
+38,38,3,Dr. Bhatia,Hypertension,2024-10-19,2024-10-25,80483,Death
+39,39,2,Dr. Sharma,COVID-19,2024-04-30,2024-05-19,61651,Referred
+40,40,2,Dr. Kapoor,Hypertension,2024-08-30,2024-09-01,28148,Referred
+41,41,4,Dr. Kapoor,Heart Disease,2024-09-06,2024-09-17,37895,Death
+42,42,5,Dr. Sharma,Migraine,2024-02-20,2024-02-27,12869,Recovered
+43,43,3,Dr. Bhatia,Diabetes,2024-08-18,2024-08-30,39048,Referred
+44,44,3,Dr. Reddy,COVID-19,2024-06-25,2024-06-27,58970,Recovered
+45,45,3,Dr. Iyer,Asthma,2024-10-22,2024-11-11,90179,Death
+46,46,5,Dr. Kapoor,COVID-19,2024-06-30,2024-07-12,93236,Death
+47,47,4,Dr. Iyer,Tuberculosis,2024-02-10,2024-02-24,85434,Referred
+48,48,4,Dr. Iyer,Hypertension,2024-03-26,2024-04-07,60288,Death
+49,49,5,Dr. Reddy,Migraine,2024-02-06,2024-02-10,26233,Referred
+50,50,2,Dr. Sinha,Heart Disease,2024-11-30,2024-12-11,98117,Referred
+51,51,5,Dr. Iyer,Migraine,2024-05-18,2024-06-03,52600,Death
+52,52,5,Dr. Reddy,Tuberculosis,2024-07-30,2024-08-06,29102,Recovered
+53,53,2,Dr. Iyer,Asthma,2024-12-04,2024-12-14,96841,Death
+54,54,1,Dr. Kapoor,Hypertension,2024-07-22,2024-07-27,17524,Recovered
+55,55,4,Dr. Reddy,Typhoid,2024-01-14,2024-01-28,73679,Recovered
+56,56,1,Dr. Sinha,Hypertension,2024-02-13,2024-02-27,45549,Recovered
+57,57,2,Dr. Iyer,COVID-19,2024-08-14,2024-08-20,22206,Death
+58,58,2,Dr. Sharma,Typhoid,2024-12-05,2024-12-18,47624,Referred
+59,59,4,Dr. Reddy,COVID-19,2024-10-07,2024-10-23,22709,Death
+60,60,5,Dr. Kapoor,Tuberculosis,2024-11-19,2024-12-09,62013,Death
+61,61,6,Dr. Iyer,COVID-19,2024-06-26,2024-07-13,75735,Recovered
+62,62,1,Dr. Bhatia,COVID-19,2024-07-06,2024-07-21,39053,Recovered
+63,63,3,Dr. Sharma,Typhoid,2024-09-24,2024-09-30,50073,Referred
+64,64,4,Dr. Reddy,Typhoid,2024-12-18,2025-01-04,67530,Referred
+65,65,1,Dr. Bhatia,COVID-19,2024-11-01,2024-11-10,5946,Death
+66,66,3,Dr. Kapoor,Migraine,2024-10-14,2024-10-29,56740,Recovered
+67,67,2,Dr. Iyer,Migraine,2024-07-12,2024-07-21,39469,Recovered
+68,68,4,Dr. Iyer,Asthma,2024-09-21,2024-10-01,42313,Death
+69,69,6,Dr. Reddy,COVID-19,2024-07-30,2024-08-07,13973,Recovered
+70,70,2,Dr. Sinha,Diabetes,2024-11-22,2024-12-08,85967,Referred
+71,71,3,Dr. Iyer,Tuberculosis,2024-04-06,2024-04-18,7542,Recovered
+72,72,1,Dr. Reddy,Typhoid,2024-04-05,2024-04-10,41977,Referred
+73,73,2,Dr. Iyer,Tuberculosis,2024-01-05,2024-01-14,16822,Recovered
+74,74,1,Dr. Bhatia,Asthma,2024-06-24,2024-07-09,45838,Referred
+75,75,3,Dr. Bhatia,Typhoid,2024-06-18,2024-06-22,24148,Recovered
+76,76,3,Dr. Bhatia,Diabetes,2024-10-05,2024-10-22,28803,Recovered
+77,77,3,Dr. Bhatia,Typhoid,2024-03-03,2024-03-12,55436,Referred
+78,78,2,Dr. Iyer,Typhoid,2024-04-11,2024-04-27,17315,Death
+79,79,6,Dr. Kapoor,Tuberculosis,2024-07-18,2024-07-29,47344,Recovered
+80,80,6,Dr. Iyer,Typhoid,2024-10-08,2024-10-26,21009,Referred
+81,81,4,Dr. Iyer,COVID-19,2024-04-11,2024-04-24,11827,Death
+82,82,2,Dr. Sharma,Asthma,2024-11-20,2024-12-05,47534,Recovered
+83,83,2,Dr. Sinha,Diabetes,2024-07-21,2024-07-30,6170,Recovered
+84,84,5,Dr. Iyer,Tuberculosis,2024-12-18,2024-12-24,53679,Recovered
+85,85,2,Dr. Kapoor,Tuberculosis,2024-02-16,2024-02-28,86937,Recovered
+86,86,1,Dr. Sinha,Hypertension,2024-12-25,2025-01-13,19076,Recovered
+87,87,4,Dr. Kapoor,Heart Disease,2024-10-12,2024-10-25,62503,Death
+88,88,2,Dr. Sharma,Migraine,2024-07-02,2024-07-08,37859,Recovered
+89,89,4,Dr. Iyer,Tuberculosis,2024-10-13,2024-10-24,76137,Death
+90,90,4,Dr. Kapoor,Hypertension,2024-10-05,2024-10-18,47425,Death
+91,91,4,Dr. Sinha,Hypertension,2024-02-05,2024-02-23,25319,Referred
+92,92,3,Dr. Sinha,Heart Disease,2024-08-20,2024-08-22,88627,Death
+93,93,4,Dr. Iyer,Hypertension,2024-01-10,2024-01-23,86290,Recovered
+94,94,3,Dr. Iyer,Diabetes,2024-12-03,2024-12-22,55789,Recovered
+95,95,5,Dr. Iyer,Tuberculosis,2024-10-09,2024-10-15,85352,Referred
+96,96,3,Dr. Bhatia,Heart Disease,2024-02-26,2024-03-02,73576,Death
+97,97,1,Dr. Sharma,Hypertension,2024-04-01,2024-04-04,31486,Recovered
+98,98,4,Dr. Kapoor,Diabetes,2024-01-17,2024-02-06,89115,Referred
+99,99,6,Dr. Bhatia,COVID-19,2024-01-26,2024-02-08,33930,Death
+100,100,6,Dr. Sharma,Typhoid,2024-04-16,2024-05-03,15480,Referred
+101,101,6,Dr. Sharma,Heart Disease,2024-10-12,2024-10-27,53374,Death
+102,102,1,Dr. Reddy,COVID-19,2024-09-27,2024-09-30,14225,Referred
+103,103,1,Dr. Kapoor,Diabetes,2024-02-21,2024-03-01,74685,Referred
+104,104,2,Dr. Kapoor,Asthma,2024-10-18,2024-10-25,78193,Death
+105,105,5,Dr. Bhatia,Diabetes,2024-11-22,2024-12-12,51918,Death
+106,106,4,Dr. Iyer,Migraine,2024-02-23,2024-03-01,28644,Death
+107,107,4,Dr. Reddy,Heart Disease,2024-12-02,2024-12-09,74979,Death
+108,108,4,Dr. Sinha,Heart Disease,2024-10-08,2024-10-20,53722,Referred
+109,109,6,Dr. Bhatia,Heart Disease,2024-11-07,2024-11-16,78812,Death
+110,110,2,Dr. Bhatia,COVID-19,2024-07-03,2024-07-19,63654,Referred
+111,111,1,Dr. Iyer,Typhoid,2024-05-25,2024-05-27,72844,Recovered
+112,112,3,Dr. Sharma,COVID-19,2024-04-23,2024-05-01,46275,Recovered
+113,113,6,Dr. Sinha,Hypertension,2024-02-18,2024-02-21,65341,Referred
+114,114,2,Dr. Kapoor,COVID-19,2024-07-06,2024-07-26,37749,Recovered
+115,115,3,Dr. Sinha,Diabetes,2024-10-19,2024-11-02,79588,Recovered
+116,116,6,Dr. Sharma,Heart Disease,2024-09-04,2024-09-11,68999,Death
+117,117,6,Dr. Reddy,Diabetes,2024-10-31,2024-11-11,9898,Death
+118,118,5,Dr. Bhatia,Diabetes,2024-01-29,2024-02-10,50603,Referred
+119,119,4,Dr. Sharma,Asthma,2024-11-30,2024-12-02,88084,Death
+120,120,4,Dr. Sharma,COVID-19,2024-09-25,2024-09-28,46853,Death
+121,121,5,Dr. Kapoor,Heart Disease,2024-09-14,2024-09-23,25079,Recovered
+122,122,6,Dr. Iyer,Migraine,2024-08-16,2024-09-05,71155,Recovered
+123,123,2,Dr. Bhatia,COVID-19,2024-07-20,2024-07-26,22326,Referred
+124,124,1,Dr. Bhatia,Typhoid,2024-10-07,2024-10-21,39413,Recovered
+125,125,4,Dr. Reddy,Migraine,2024-12-23,2024-12-29,22677,Referred
+126,126,5,Dr. Kapoor,Tuberculosis,2024-07-21,2024-08-10,30703,Death
+127,127,5,Dr. Iyer,Asthma,2024-05-04,2024-05-08,39898,Referred
+128,128,3,Dr. Iyer,Diabetes,2024-02-27,2024-03-13,60514,Referred
+129,129,3,Dr. Kapoor,Heart Disease,2024-06-25,2024-06-27,44953,Recovered
+130,130,3,Dr. Reddy,Tuberculosis,2024-11-15,2024-11-21,62732,Recovered
+131,131,2,Dr. Kapoor,Heart Disease,2024-03-20,2024-03-24,19728,Death
+132,132,1,Dr. Kapoor,Hypertension,2024-05-27,2024-05-29,49993,Death
+133,133,1,Dr. Sinha,Tuberculosis,2024-08-29,2024-08-31,48499,Recovered
+134,134,6,Dr. Reddy,Asthma,2024-04-14,2024-05-03,73585,Referred
+135,135,5,Dr. Bhatia,Hypertension,2024-12-21,2024-12-23,54362,Death
+136,136,6,Dr. Reddy,Typhoid,2024-05-10,2024-05-17,12878,Referred
+137,137,2,Dr. Iyer,COVID-19,2024-01-28,2024-02-13,90820,Recovered
+138,138,1,Dr. Bhatia,COVID-19,2024-12-05,2024-12-18,19141,Recovered
+139,139,3,Dr. Iyer,Migraine,2024-04-28,2024-05-12,71655,Death
+140,140,1,Dr. Sinha,Tuberculosis,2024-11-01,2024-11-20,16537,Recovered
+141,141,2,Dr. Reddy,Tuberculosis,2024-10-14,2024-10-16,10210,Recovered
+142,142,5,Dr. Sinha,Heart Disease,2024-09-07,2024-09-21,25578,Recovered
+143,143,3,Dr. Iyer,Heart Disease,2024-06-30,2024-07-11,35959,Death
+144,144,3,Dr. Sharma,COVID-19,2024-07-17,2024-07-19,77737,Referred
+145,145,2,Dr. Kapoor,Heart Disease,2024-07-20,2024-07-26,16507,Death
+146,146,4,Dr. Reddy,Asthma,2024-08-01,2024-08-10,80090,Recovered
+147,147,4,Dr. Sinha,Heart Disease,2024-08-17,2024-09-05,22271,Recovered
+148,148,6,Dr. Kapoor,Asthma,2024-03-11,2024-03-22,95247,Death
+149,149,5,Dr. Kapoor,Migraine,2024-03-15,2024-04-04,25715,Referred
+150,150,1,Dr. Reddy,Diabetes,2024-04-04,2024-04-16,24073,Death
+151,151,1,Dr. Sinha,Migraine,2024-07-29,2024-08-09,63065,Death
+152,152,6,Dr. Iyer,COVID-19,2024-03-18,2024-03-26,18994,Recovered
+153,153,2,Dr. Sharma,COVID-19,2024-11-06,2024-11-26,85263,Recovered
+154,154,5,Dr. Kapoor,Asthma,2024-12-17,2024-12-19,52089,Recovered
+155,155,6,Dr. Bhatia,Hypertension,2024-09-14,2024-10-01,98325,Death
+156,156,3,Dr. Kapoor,Migraine,2024-09-08,2024-09-25,23024,Recovered
+157,157,2,Dr. Kapoor,Typhoid,2024-07-28,2024-07-30,40370,Referred
+158,158,2,Dr. Iyer,Asthma,2024-04-14,2024-04-18,28209,Referred
+159,159,5,Dr. Bhatia,Heart Disease,2024-08-22,2024-08-31,61040,Referred
+160,160,1,Dr. Reddy,Migraine,2024-06-09,2024-06-23,85151,Death
+161,161,5,Dr. Reddy,Typhoid,2024-09-23,2024-09-28,64193,Referred
+162,162,1,Dr. Kapoor,Migraine,2024-01-21,2024-02-09,55777,Death
+163,163,6,Dr. Sharma,Asthma,2024-05-29,2024-06-14,57171,Referred
+164,164,3,Dr. Bhatia,Hypertension,2024-08-04,2024-08-15,85364,Recovered
+165,165,6,Dr. Reddy,Hypertension,2024-08-25,2024-09-10,16854,Death
+166,166,5,Dr. Sharma,Hypertension,2024-10-26,2024-11-14,22734,Referred
+167,167,4,Dr. Sinha,Tuberculosis,2024-01-13,2024-01-20,64464,Death
+168,168,6,Dr. Kapoor,Tuberculosis,2024-02-16,2024-02-26,47477,Death
+169,169,6,Dr. Iyer,Hypertension,2024-03-04,2024-03-08,19963,Death
+170,170,4,Dr. Iyer,Heart Disease,2024-02-13,2024-03-02,97704,Referred
+171,171,6,Dr. Reddy,Hypertension,2024-07-12,2024-07-31,54886,Recovered
+172,172,2,Dr. Sinha,Hypertension,2024-03-24,2024-03-30,28444,Death
+173,173,1,Dr. Bhatia,COVID-19,2024-06-07,2024-06-23,42851,Death
+174,174,2,Dr. Sharma,Hypertension,2024-04-13,2024-04-15,86600,Referred
+175,175,1,Dr. Bhatia,Tuberculosis,2024-09-12,2024-10-01,5753,Death
+176,176,4,Dr. Kapoor,Asthma,2024-10-28,2024-11-14,64472,Referred
+177,177,4,Dr. Sharma,Typhoid,2024-05-05,2024-05-24,41452,Death
+178,178,6,Dr. Reddy,Asthma,2024-01-26,2024-02-02,24432,Recovered
+179,179,6,Dr. Sinha,Typhoid,2024-03-15,2024-03-18,92424,Death
+180,180,5,Dr. Sinha,Heart Disease,2024-02-14,2024-02-17,19272,Referred
+181,181,2,Dr. Kapoor,COVID-19,2024-11-08,2024-11-28,78685,Recovered
+182,182,4,Dr. Iyer,Heart Disease,2024-01-19,2024-01-23,44229,Referred
+183,183,3,Dr. Bhatia,Diabetes,2024-08-06,2024-08-25,13509,Referred
+184,184,4,Dr. Kapoor,Diabetes,2024-12-21,2024-12-31,48150,Death
+185,185,4,Dr. Reddy,Asthma,2024-12-22,2024-12-30,85223,Recovered
+186,186,1,Dr. Reddy,Diabetes,2024-09-04,2024-09-15,60974,Death
+187,187,3,Dr. Sinha,Heart Disease,2024-03-07,2024-03-27,70063,Death
+188,188,6,Dr. Iyer,Tuberculosis,2024-09-09,2024-09-16,84876,Recovered
+189,189,6,Dr. Sinha,Asthma,2024-01-01,2024-01-06,8143,Referred
+190,190,6,Dr. Sharma,Asthma,2024-11-11,2024-11-26,59269,Recovered
+191,191,3,Dr. Sinha,Asthma,2024-01-06,2024-01-14,95441,Referred
+192,192,3,Dr. Sharma,COVID-19,2024-06-02,2024-06-20,77088,Referred
+193,193,1,Dr. Sharma,Heart Disease,2024-06-23,2024-07-07,99948,Death
+194,194,5,Dr. Sharma,Hypertension,2024-04-09,2024-04-21,49294,Death
+195,195,4,Dr. Bhatia,Typhoid,2024-11-26,2024-12-02,68110,Recovered
+196,196,6,Dr. Bhatia,Heart Disease,2024-08-24,2024-09-08,12342,Death
+197,197,3,Dr. Reddy,Heart Disease,2024-10-11,2024-10-30,7453,Recovered
+198,198,5,Dr. Iyer,Heart Disease,2024-06-30,2024-07-04,24569,Referred
+199,199,1,Dr. Sinha,Migraine,2024-11-16,2024-12-05,26753,Death
+200,200,5,Dr. Bhatia,Hypertension,2024-10-31,2024-11-05,45407,Death
+201,201,3,Dr. Iyer,Typhoid,2024-05-19,2024-06-03,16376,Referred
+202,202,2,Dr. Sinha,Tuberculosis,2024-06-03,2024-06-11,73825,Referred
+203,203,2,Dr. Sharma,Heart Disease,2024-01-20,2024-01-28,17137,Referred
+204,204,5,Dr. Sharma,Tuberculosis,2024-09-13,2024-09-19,29931,Referred
+205,205,4,Dr. Iyer,COVID-19,2024-06-16,2024-06-22,17878,Death
+206,206,6,Dr. Kapoor,Asthma,2024-01-19,2024-02-04,55801,Death
+207,207,5,Dr. Sharma,Typhoid,2024-06-08,2024-06-11,95053,Death
+208,208,1,Dr. Sinha,Tuberculosis,2024-01-24,2024-01-29,73233,Death
+209,209,6,Dr. Sinha,Typhoid,2024-10-22,2024-11-02,88735,Recovered
+210,210,3,Dr. Kapoor,Asthma,2024-05-26,2024-06-05,74766,Referred
+211,211,4,Dr. Iyer,Diabetes,2024-05-19,2024-05-25,25643,Referred
+212,212,1,Dr. Sharma,Diabetes,2024-04-15,2024-05-04,50916,Death
+213,213,3,Dr. Sinha,Hypertension,2024-12-26,2025-01-06,80246,Recovered
+214,214,2,Dr. Sharma,COVID-19,2024-11-09,2024-11-21,75854,Referred
+215,215,1,Dr. Kapoor,Typhoid,2024-08-29,2024-09-01,18884,Referred
+216,216,1,Dr. Sharma,Migraine,2024-07-19,2024-07-26,97363,Death
+217,217,5,Dr. Iyer,Tuberculosis,2024-11-11,2024-11-24,45952,Referred
+218,218,2,Dr. Iyer,Diabetes,2024-08-26,2024-09-15,22274,Recovered
+219,219,6,Dr. Bhatia,Diabetes,2024-08-21,2024-09-01,94715,Death
+220,220,6,Dr. Bhatia,Tuberculosis,2024-04-28,2024-05-07,23837,Death
+221,221,3,Dr. Sinha,Migraine,2024-04-03,2024-04-15,47567,Referred
+222,222,4,Dr. Sharma,Diabetes,2024-08-31,2024-09-05,51064,Referred
+223,223,4,Dr. Kapoor,COVID-19,2024-06-27,2024-07-17,21697,Death
+224,224,1,Dr. Bhatia,Diabetes,2024-06-15,2024-07-04,90124,Recovered
+225,225,3,Dr. Reddy,Tuberculosis,2024-07-24,2024-08-13,59190,Recovered
+226,226,5,Dr. Kapoor,Hypertension,2024-09-03,2024-09-17,13658,Referred
+227,227,2,Dr. Iyer,Migraine,2024-08-10,2024-08-30,49852,Death
+228,228,6,Dr. Kapoor,Hypertension,2024-12-05,2024-12-09,98311,Death
+229,229,4,Dr. Sharma,Tuberculosis,2024-06-15,2024-07-04,17799,Referred
+230,230,2,Dr. Sinha,Migraine,2024-02-05,2024-02-10,94850,Death
+231,231,4,Dr. Sinha,Tuberculosis,2024-11-26,2024-11-29,16866,Recovered
+232,232,2,Dr. Reddy,Typhoid,2024-03-16,2024-03-22,64372,Death
+233,233,3,Dr. Bhatia,Tuberculosis,2024-04-10,2024-04-18,94327,Referred
+234,234,3,Dr. Reddy,COVID-19,2024-08-10,2024-08-23,16703,Death
+235,235,1,Dr. Reddy,Migraine,2024-03-06,2024-03-17,13180,Referred
+236,236,5,Dr. Sharma,Typhoid,2024-12-26,2025-01-14,52086,Recovered
+237,237,3,Dr. Sharma,Asthma,2024-08-09,2024-08-29,56677,Death
+238,238,3,Dr. Iyer,Migraine,2024-07-26,2024-08-09,62041,Death
+239,239,2,Dr. Iyer,Hypertension,2024-08-31,2024-09-06,29671,Death
+240,240,4,Dr. Sinha,Migraine,2024-03-19,2024-03-30,92826,Recovered
+241,241,2,Dr. Sharma,Diabetes,2024-11-27,2024-11-29,23873,Death
+242,242,4,Dr. Iyer,Migraine,2024-03-10,2024-03-14,22985,Death
+243,243,4,Dr. Bhatia,Migraine,2024-11-15,2024-11-22,64558,Death
+244,244,4,Dr. Reddy,Tuberculosis,2024-07-15,2024-07-28,34588,Recovered
+245,245,4,Dr. Reddy,Typhoid,2024-10-22,2024-11-08,36031,Death
+246,246,5,Dr. Sinha,Migraine,2024-10-06,2024-10-26,53099,Recovered
+247,247,1,Dr. Reddy,Tuberculosis,2024-12-26,2025-01-08,19832,Death
+248,248,4,Dr. Iyer,Diabetes,2024-03-13,2024-03-31,41624,Referred
+249,249,5,Dr. Sharma,Diabetes,2024-05-05,2024-05-22,87662,Death
+250,250,6,Dr. Iyer,Diabetes,2024-12-16,2025-01-04,80973,Referred
+251,251,5,Dr. Sharma,Heart Disease,2024-09-30,2024-10-02,66455,Referred
+252,252,5,Dr. Bhatia,Heart Disease,2024-08-03,2024-08-16,43616,Referred
+253,253,2,Dr. Sharma,COVID-19,2024-10-15,2024-10-25,13050,Death
+254,254,4,Dr. Reddy,Hypertension,2024-10-20,2024-10-23,91025,Referred
+255,255,6,Dr. Reddy,Typhoid,2024-05-26,2024-06-12,15814,Recovered
+256,256,5,Dr. Sharma,COVID-19,2024-05-09,2024-05-15,85713,Referred
+257,257,3,Dr. Sinha,Typhoid,2024-02-27,2024-03-05,82564,Death
+258,258,2,Dr. Iyer,Tuberculosis,2024-07-08,2024-07-15,39242,Death
+259,259,2,Dr. Bhatia,Hypertension,2024-09-27,2024-09-30,49937,Recovered
+260,260,2,Dr. Reddy,Hypertension,2024-09-10,2024-09-25,55222,Recovered
+261,261,6,Dr. Bhatia,Hypertension,2024-04-17,2024-05-07,50229,Recovered
+262,262,6,Dr. Sinha,Diabetes,2024-01-27,2024-02-03,65819,Referred
+263,263,4,Dr. Sinha,Tuberculosis,2024-09-29,2024-10-08,54781,Death
+264,264,6,Dr. Bhatia,Tuberculosis,2024-05-14,2024-05-20,74526,Referred
+265,265,1,Dr. Sinha,Tuberculosis,2024-07-14,2024-07-26,74501,Death
+266,266,1,Dr. Sharma,Heart Disease,2024-08-09,2024-08-19,48904,Referred
+267,267,3,Dr. Sharma,COVID-19,2024-12-01,2024-12-21,56269,Referred
+268,268,6,Dr. Iyer,Asthma,2024-12-10,2024-12-30,30549,Death
+269,269,3,Dr. Iyer,Hypertension,2024-06-09,2024-06-28,6386,Death
+270,270,1,Dr. Sharma,Typhoid,2024-07-29,2024-08-03,73847,Recovered
+271,271,6,Dr. Bhatia,Heart Disease,2024-04-22,2024-05-03,38016,Recovered
+272,272,1,Dr. Sharma,Diabetes,2024-01-30,2024-02-07,83562,Death
+273,273,1,Dr. Iyer,Diabetes,2024-02-14,2024-02-20,54277,Death
+274,274,6,Dr. Reddy,Hypertension,2024-02-26,2024-03-04,38205,Referred
+275,275,4,Dr. Iyer,Diabetes,2024-11-23,2024-12-09,41226,Referred
+276,276,6,Dr. Iyer,Heart Disease,2024-05-11,2024-05-18,14698,Referred
+277,277,1,Dr. Bhatia,Migraine,2024-06-19,2024-06-22,38847,Referred
+278,278,2,Dr. Bhatia,Diabetes,2024-09-08,2024-09-16,84993,Referred
+279,279,2,Dr. Iyer,Tuberculosis,2024-02-25,2024-03-02,75861,Referred
+280,280,2,Dr. Reddy,Diabetes,2024-08-14,2024-08-24,18538,Recovered
+281,281,1,Dr. Sharma,COVID-19,2024-08-16,2024-08-18,70234,Recovered
+282,282,6,Dr. Iyer,Typhoid,2024-01-20,2024-02-03,39922,Recovered
+283,283,6,Dr. Sinha,Migraine,2024-10-21,2024-10-23,72552,Death
+284,284,4,Dr. Bhatia,Migraine,2024-07-25,2024-07-29,75795,Recovered
+285,285,1,Dr. Bhatia,Tuberculosis,2024-03-03,2024-03-23,75163,Referred
+286,286,3,Dr. Iyer,COVID-19,2024-07-24,2024-07-27,87873,Death
+287,287,1,Dr. Sinha,Heart Disease,2024-02-11,2024-02-27,43005,Death
+288,288,2,Dr. Kapoor,Typhoid,2024-07-15,2024-07-23,44173,Death
+289,289,4,Dr. Sharma,Heart Disease,2024-09-06,2024-09-10,87941,Referred
+290,290,6,Dr. Kapoor,Hypertension,2024-01-19,2024-01-27,8324,Death
+291,291,5,Dr. Kapoor,Tuberculosis,2024-07-18,2024-07-22,75851,Death
+292,292,3,Dr. Bhatia,Tuberculosis,2024-01-09,2024-01-12,49470,Recovered
+293,293,3,Dr. Iyer,Typhoid,2024-07-26,2024-07-31,32745,Death
+294,294,6,Dr. Reddy,Tuberculosis,2024-12-13,2025-01-01,24523,Death
+295,295,5,Dr. Kapoor,Diabetes,2024-01-19,2024-01-25,69080,Death
+296,296,1,Dr. Bhatia,Typhoid,2024-05-04,2024-05-10,6882,Recovered
+297,297,6,Dr. Sharma,COVID-19,2024-02-19,2024-03-06,85114,Recovered
+298,298,5,Dr. Sharma,Diabetes,2024-02-28,2024-03-16,82984,Death
+299,299,2,Dr. Sharma,Asthma,2024-08-06,2024-08-18,93918,Referred
+300,300,3,Dr. Sharma,Hypertension,2024-06-13,2024-06-21,10975,Death
+301,301,2,Dr. Sinha,Diabetes,2024-03-02,2024-03-12,23512,Referred
+302,302,2,Dr. Iyer,Heart Disease,2024-10-10,2024-10-17,62496,Recovered
+303,303,5,Dr. Sharma,Hypertension,2024-02-21,2024-03-06,25677,Recovered
+304,304,4,Dr. Sharma,Typhoid,2024-01-04,2024-01-11,16683,Death
+305,305,6,Dr. Reddy,COVID-19,2024-08-01,2024-08-18,95748,Recovered
+306,306,2,Dr. Kapoor,COVID-19,2024-09-24,2024-10-10,59005,Recovered
+307,307,2,Dr. Reddy,Typhoid,2024-11-01,2024-11-08,99004,Referred
+308,308,5,Dr. Sharma,COVID-19,2024-06-27,2024-07-12,5599,Death
+309,309,2,Dr. Kapoor,Diabetes,2024-09-28,2024-10-03,86123,Referred
+310,310,5,Dr. Reddy,Asthma,2024-08-25,2024-09-02,41231,Recovered
+311,311,2,Dr. Sharma,Hypertension,2024-12-16,2025-01-02,70210,Recovered
+312,312,2,Dr. Iyer,Typhoid,2024-01-28,2024-02-10,42363,Recovered
+313,313,4,Dr. Sinha,Heart Disease,2024-11-11,2024-11-27,10677,Recovered
+314,314,6,Dr. Sharma,Hypertension,2024-03-21,2024-03-23,68577,Death
+315,315,1,Dr. Sharma,Asthma,2024-08-15,2024-09-04,80990,Referred
+316,316,4,Dr. Kapoor,Heart Disease,2024-04-27,2024-05-02,47746,Recovered
+317,317,1,Dr. Kapoor,Migraine,2024-04-12,2024-04-26,33922,Recovered
+318,318,4,Dr. Reddy,Tuberculosis,2024-01-28,2024-02-12,23997,Recovered
+319,319,5,Dr. Bhatia,Hypertension,2024-07-17,2024-07-30,22878,Referred
+320,320,6,Dr. Kapoor,Heart Disease,2024-05-18,2024-05-26,49025,Recovered
+321,321,1,Dr. Iyer,Typhoid,2024-05-23,2024-05-29,19563,Referred
+322,322,4,Dr. Bhatia,Hypertension,2024-06-24,2024-07-03,43687,Death
+323,323,2,Dr. Iyer,Hypertension,2024-10-22,2024-11-10,35107,Recovered
+324,324,4,Dr. Reddy,Tuberculosis,2024-04-20,2024-05-10,67061,Referred
+325,325,3,Dr. Sharma,Migraine,2024-05-06,2024-05-15,47899,Referred
+326,326,5,Dr. Kapoor,Hypertension,2024-10-20,2024-10-22,59758,Recovered
+327,327,1,Dr. Bhatia,Typhoid,2024-08-05,2024-08-23,56684,Referred
+328,328,6,Dr. Sharma,Tuberculosis,2024-09-10,2024-09-19,15890,Death
+329,329,1,Dr. Iyer,Migraine,2024-04-21,2024-04-27,51976,Referred
+330,330,2,Dr. Iyer,Diabetes,2024-01-09,2024-01-26,92691,Referred
+331,331,2,Dr. Iyer,Tuberculosis,2024-10-19,2024-11-08,8199,Referred
+332,332,4,Dr. Kapoor,Migraine,2024-04-04,2024-04-17,87157,Referred
+333,333,6,Dr. Iyer,Typhoid,2024-11-17,2024-11-21,55446,Death
+334,334,3,Dr. Reddy,Typhoid,2024-05-31,2024-06-15,40361,Death
+335,335,5,Dr. Reddy,Asthma,2024-12-16,2024-12-20,86324,Referred
+336,336,6,Dr. Sharma,Heart Disease,2024-01-27,2024-02-01,55194,Referred
+337,337,4,Dr. Reddy,Typhoid,2024-07-06,2024-07-19,27972,Death
+338,338,5,Dr. Iyer,Diabetes,2024-10-14,2024-10-22,23141,Referred
+339,339,2,Dr. Reddy,Diabetes,2024-11-28,2024-12-15,81037,Death
+340,340,2,Dr. Iyer,Asthma,2024-06-13,2024-06-26,40043,Death
+341,341,6,Dr. Bhatia,COVID-19,2024-01-28,2024-02-01,53865,Referred
+342,342,4,Dr. Bhatia,Diabetes,2024-08-28,2024-09-16,93907,Death
+343,343,3,Dr. Bhatia,Heart Disease,2024-12-10,2024-12-14,29687,Referred
+344,344,1,Dr. Sharma,Migraine,2024-04-01,2024-04-12,15085,Recovered
+345,345,2,Dr. Sinha,Diabetes,2024-12-22,2024-12-28,70054,Recovered
+346,346,2,Dr. Reddy,Typhoid,2024-05-30,2024-06-14,94443,Death
+347,347,2,Dr. Bhatia,Heart Disease,2024-08-03,2024-08-19,89500,Recovered
+348,348,3,Dr. Kapoor,Diabetes,2024-01-12,2024-01-21,73107,Death
+349,349,3,Dr. Bhatia,Heart Disease,2024-12-01,2024-12-13,68720,Death
+350,350,6,Dr. Iyer,Tuberculosis,2024-08-22,2024-09-02,79350,Recovered
+351,351,3,Dr. Kapoor,COVID-19,2024-04-26,2024-05-13,53745,Referred
+352,352,1,Dr. Kapoor,Heart Disease,2024-05-25,2024-06-10,26805,Death
+353,353,2,Dr. Iyer,COVID-19,2024-04-03,2024-04-10,97813,Death
+354,354,6,Dr. Kapoor,Hypertension,2024-05-01,2024-05-06,10393,Referred
+355,355,5,Dr. Kapoor,Tuberculosis,2024-05-13,2024-05-26,29182,Recovered
+356,356,5,Dr. Iyer,Typhoid,2024-12-06,2024-12-18,50068,Recovered
+357,357,3,Dr. Bhatia,Hypertension,2024-09-30,2024-10-11,20923,Recovered
+358,358,4,Dr. Bhatia,Hypertension,2024-08-22,2024-09-03,25454,Recovered
+359,359,6,Dr. Reddy,Heart Disease,2024-11-27,2024-12-08,67116,Referred
+360,360,5,Dr. Iyer,Hypertension,2024-10-16,2024-11-01,49392,Death
+361,361,1,Dr. Iyer,Tuberculosis,2024-01-21,2024-01-27,93867,Death
+362,362,1,Dr. Sinha,Typhoid,2024-07-24,2024-08-02,63454,Referred
+363,363,1,Dr. Sinha,Typhoid,2024-11-07,2024-11-15,81471,Death
+364,364,2,Dr. Sinha,Asthma,2024-01-12,2024-01-16,75570,Referred
+365,365,6,Dr. Iyer,Diabetes,2024-09-19,2024-10-03,30486,Referred
+366,366,3,Dr. Reddy,Typhoid,2024-12-07,2024-12-20,57108,Recovered
+367,367,6,Dr. Bhatia,Heart Disease,2024-07-16,2024-07-29,6597,Referred
+368,368,3,Dr. Sinha,COVID-19,2024-08-16,2024-09-04,16481,Recovered
+369,369,6,Dr. Bhatia,Migraine,2024-08-14,2024-08-25,26468,Death
+370,370,4,Dr. Iyer,Migraine,2024-03-12,2024-04-01,83372,Recovered
+371,371,2,Dr. Kapoor,COVID-19,2024-08-31,2024-09-18,48963,Recovered
+372,372,5,Dr. Bhatia,Diabetes,2024-01-04,2024-01-19,88729,Referred
+373,373,4,Dr. Kapoor,Tuberculosis,2024-12-29,2025-01-18,22947,Recovered
+374,374,2,Dr. Bhatia,COVID-19,2024-10-10,2024-10-27,10535,Referred
+375,375,5,Dr. Sinha,Tuberculosis,2024-10-13,2024-10-29,34428,Recovered
+376,376,1,Dr. Kapoor,COVID-19,2024-06-02,2024-06-19,21276,Death
+377,377,6,Dr. Sinha,Migraine,2024-04-01,2024-04-18,95156,Death
+378,378,2,Dr. Sharma,Diabetes,2024-05-21,2024-06-07,13745,Death
+379,379,6,Dr. Sinha,Tuberculosis,2024-10-16,2024-10-31,38804,Death
+380,380,6,Dr. Bhatia,Diabetes,2024-07-10,2024-07-28,80400,Recovered
+381,381,3,Dr. Kapoor,Typhoid,2024-03-15,2024-03-27,65429,Death
+382,382,2,Dr. Sinha,Hypertension,2024-01-28,2024-02-07,52338,Referred
+383,383,6,Dr. Sinha,Typhoid,2024-05-28,2024-06-08,74417,Death
+384,384,1,Dr. Reddy,Asthma,2024-11-17,2024-11-24,17387,Death
+385,385,2,Dr. Reddy,Heart Disease,2024-06-10,2024-06-21,40580,Death
+386,386,6,Dr. Iyer,Heart Disease,2024-02-19,2024-03-09,81027,Referred
+387,387,2,Dr. Sharma,Hypertension,2024-09-22,2024-10-03,53891,Referred
+388,388,4,Dr. Sinha,Hypertension,2024-02-22,2024-03-01,25257,Death
+389,389,2,Dr. Kapoor,Diabetes,2024-08-01,2024-08-17,15013,Recovered
+390,390,2,Dr. Sharma,Tuberculosis,2024-06-27,2024-07-08,95577,Referred
+391,391,2,Dr. Bhatia,Heart Disease,2024-03-29,2024-04-09,8769,Death
+392,392,1,Dr. Kapoor,Hypertension,2024-12-21,2024-12-27,95183,Recovered
+393,393,3,Dr. Kapoor,Asthma,2024-03-07,2024-03-11,60680,Death
+394,394,1,Dr. Sharma,Typhoid,2024-09-04,2024-09-19,10572,Recovered
+395,395,1,Dr. Sharma,Typhoid,2024-08-28,2024-09-02,38162,Recovered
+396,396,1,Dr. Sinha,Typhoid,2024-02-19,2024-02-24,83878,Recovered
+397,397,5,Dr. Kapoor,Hypertension,2024-12-09,2024-12-22,8835,Recovered
+398,398,2,Dr. Iyer,COVID-19,2024-10-23,2024-11-05,51163,Recovered
+399,399,5,Dr. Iyer,Asthma,2024-09-15,2024-10-05,13957,Recovered
+400,400,5,Dr. Sharma,Asthma,2024-04-08,2024-04-19,27514,Death
+401,401,1,Dr. Iyer,Diabetes,2024-04-19,2024-05-07,97767,Referred
+402,402,3,Dr. Iyer,Hypertension,2024-08-13,2024-08-18,28704,Referred
+403,403,4,Dr. Bhatia,Asthma,2024-09-20,2024-09-29,58422,Recovered
+404,404,3,Dr. Sharma,Tuberculosis,2024-02-26,2024-03-15,22814,Referred
+405,405,3,Dr. Iyer,COVID-19,2024-10-12,2024-10-15,15780,Referred
+406,406,4,Dr. Sharma,Migraine,2024-05-25,2024-06-10,83694,Death
+407,407,3,Dr. Iyer,Tuberculosis,2024-04-25,2024-05-14,58383,Referred
+408,408,4,Dr. Kapoor,Diabetes,2024-08-31,2024-09-13,28500,Recovered
+409,409,6,Dr. Bhatia,Diabetes,2024-07-21,2024-08-06,73506,Death
+410,410,6,Dr. Sharma,Diabetes,2024-03-14,2024-03-28,57510,Death
+411,411,5,Dr. Sharma,Hypertension,2024-02-03,2024-02-16,31094,Referred
+412,412,2,Dr. Reddy,Migraine,2024-03-03,2024-03-12,60666,Death
+413,413,4,Dr. Sinha,COVID-19,2024-11-25,2024-12-09,51674,Referred
+414,414,6,Dr. Reddy,Migraine,2024-09-05,2024-09-23,41554,Recovered
+415,415,4,Dr. Sharma,Diabetes,2024-05-08,2024-05-25,70178,Recovered
+416,416,6,Dr. Kapoor,Typhoid,2024-02-20,2024-02-23,13942,Referred
+417,417,6,Dr. Sharma,Hypertension,2024-07-14,2024-07-26,25019,Referred
+418,418,5,Dr. Reddy,Diabetes,2024-02-09,2024-02-27,69512,Referred
+419,419,2,Dr. Sinha,Tuberculosis,2024-09-08,2024-09-26,39296,Death
+420,420,3,Dr. Reddy,Typhoid,2024-01-17,2024-02-01,20615,Referred
+421,421,4,Dr. Sinha,Migraine,2024-08-14,2024-08-30,9716,Recovered
+422,422,2,Dr. Reddy,COVID-19,2024-12-27,2025-01-03,69419,Referred
+423,423,2,Dr. Sinha,Migraine,2024-09-06,2024-09-11,79560,Death
+424,424,4,Dr. Iyer,Tuberculosis,2024-08-31,2024-09-19,25487,Death
+425,425,1,Dr. Bhatia,COVID-19,2024-09-10,2024-09-30,54518,Death
+426,426,6,Dr. Sinha,COVID-19,2024-06-13,2024-06-16,8689,Death
+427,427,1,Dr. Kapoor,Heart Disease,2024-06-27,2024-07-17,8525,Death
+428,428,3,Dr. Bhatia,Diabetes,2024-08-07,2024-08-20,51840,Referred
+429,429,3,Dr. Sharma,Asthma,2024-05-06,2024-05-15,89945,Referred
+430,430,5,Dr. Sharma,Diabetes,2024-06-05,2024-06-10,49249,Recovered
+431,431,1,Dr. Reddy,Heart Disease,2024-01-20,2024-02-05,91214,Referred
+432,432,5,Dr. Reddy,Migraine,2024-05-16,2024-05-18,96220,Referred
+433,433,5,Dr. Sharma,Heart Disease,2024-07-12,2024-08-01,56157,Referred
+434,434,5,Dr. Sharma,Tuberculosis,2024-02-21,2024-02-29,49035,Referred
+435,435,5,Dr. Iyer,Heart Disease,2024-03-26,2024-04-06,52622,Referred
+436,436,2,Dr. Bhatia,Diabetes,2024-10-01,2024-10-09,42664,Referred
+437,437,1,Dr. Sinha,Migraine,2024-04-25,2024-04-29,99071,Death
+438,438,1,Dr. Reddy,Heart Disease,2024-05-19,2024-05-23,79242,Death
+439,439,4,Dr. Bhatia,Asthma,2024-06-26,2024-06-30,90398,Referred
+440,440,5,Dr. Sinha,Migraine,2024-12-05,2024-12-24,46071,Recovered
+441,441,4,Dr. Bhatia,COVID-19,2024-11-15,2024-12-03,64405,Death
+442,442,5,Dr. Kapoor,Typhoid,2024-11-17,2024-12-05,29450,Death
+443,443,4,Dr. Kapoor,Tuberculosis,2024-05-17,2024-06-05,85533,Referred
+444,444,5,Dr. Iyer,Typhoid,2024-09-24,2024-10-02,52746,Referred
+445,445,2,Dr. Kapoor,Hypertension,2024-12-16,2024-12-27,62067,Referred
+446,446,3,Dr. Sharma,Asthma,2024-07-30,2024-08-09,42623,Death
+447,447,2,Dr. Sinha,Asthma,2024-07-26,2024-08-04,19884,Recovered
+448,448,2,Dr. Sharma,Asthma,2024-06-07,2024-06-23,68620,Death
+449,449,4,Dr. Bhatia,Typhoid,2024-04-13,2024-04-20,40744,Recovered
+450,450,1,Dr. Sinha,COVID-19,2024-12-03,2024-12-22,28066,Death
+451,451,1,Dr. Iyer,Tuberculosis,2024-01-11,2024-01-14,16000,Referred
+452,452,5,Dr. Sinha,Diabetes,2024-07-27,2024-08-09,93037,Death
+453,453,1,Dr. Bhatia,Hypertension,2024-04-30,2024-05-05,79838,Death
+454,454,5,Dr. Sharma,COVID-19,2024-09-11,2024-09-15,36205,Death
+455,455,1,Dr. Sinha,Heart Disease,2024-10-26,2024-11-09,35924,Referred
+456,456,2,Dr. Kapoor,Diabetes,2024-03-30,2024-04-07,40985,Referred
+457,457,4,Dr. Sinha,Typhoid,2024-09-08,2024-09-27,54113,Death
+458,458,1,Dr. Sinha,Migraine,2024-08-31,2024-09-09,41403,Recovered
+459,459,3,Dr. Bhatia,Heart Disease,2024-06-06,2024-06-08,89593,Death
+460,460,1,Dr. Iyer,Typhoid,2024-12-19,2024-12-28,38158,Death
+461,461,4,Dr. Sinha,Heart Disease,2024-12-16,2024-12-21,75111,Recovered
+462,462,4,Dr. Bhatia,Typhoid,2024-07-20,2024-07-30,44438,Recovered
+463,463,2,Dr. Sinha,Asthma,2024-03-23,2024-04-08,87752,Referred
+464,464,6,Dr. Bhatia,Typhoid,2024-05-20,2024-05-24,69447,Referred
+465,465,6,Dr. Bhatia,Heart Disease,2024-08-04,2024-08-09,26016,Death
+466,466,3,Dr. Reddy,Diabetes,2024-06-29,2024-07-14,83920,Death
+467,467,5,Dr. Iyer,Heart Disease,2024-08-20,2024-08-22,11828,Death
+468,468,6,Dr. Kapoor,Tuberculosis,2024-11-24,2024-11-30,5403,Referred
+469,469,2,Dr. Iyer,COVID-19,2024-06-09,2024-06-29,15778,Recovered
+470,470,2,Dr. Kapoor,Hypertension,2024-10-31,2024-11-15,46864,Referred
+471,471,4,Dr. Iyer,Hypertension,2024-05-13,2024-05-20,95107,Death
+472,472,3,Dr. Sinha,Asthma,2024-02-13,2024-02-28,53182,Recovered
+473,473,4,Dr. Bhatia,Asthma,2024-01-11,2024-01-13,78207,Death
+474,474,5,Dr. Iyer,Asthma,2024-02-15,2024-03-02,30987,Referred
+475,475,6,Dr. Kapoor,Typhoid,2024-07-24,2024-08-08,83694,Referred
+476,476,2,Dr. Sharma,Heart Disease,2024-03-28,2024-04-17,20381,Recovered
+477,477,6,Dr. Reddy,Migraine,2024-08-20,2024-09-06,20533,Recovered
+478,478,6,Dr. Kapoor,Asthma,2024-05-16,2024-05-27,69771,Referred
+479,479,2,Dr. Bhatia,Asthma,2024-11-03,2024-11-11,42089,Death
+480,480,6,Dr. Kapoor,Migraine,2024-04-02,2024-04-17,24129,Recovered
+481,481,3,Dr. Sinha,Asthma,2024-11-12,2024-11-28,37547,Referred
+482,482,5,Dr. Iyer,Tuberculosis,2024-02-13,2024-02-15,66457,Recovered
+483,483,3,Dr. Iyer,Migraine,2024-12-17,2024-12-25,98498,Referred
+484,484,6,Dr. Bhatia,COVID-19,2024-02-07,2024-02-12,78007,Recovered
+485,485,1,Dr. Sinha,Asthma,2024-08-29,2024-09-11,84478,Death
+486,486,5,Dr. Iyer,Typhoid,2024-01-03,2024-01-13,71131,Death
+487,487,4,Dr. Sinha,Migraine,2024-12-09,2024-12-22,22332,Death
+488,488,1,Dr. Reddy,Hypertension,2024-05-13,2024-05-20,71027,Referred
+489,489,3,Dr. Bhatia,Hypertension,2024-02-15,2024-02-27,98094,Death
+490,490,4,Dr. Kapoor,COVID-19,2024-02-29,2024-03-12,10788,Recovered
+491,491,4,Dr. Sinha,Heart Disease,2024-08-08,2024-08-19,39500,Death
+492,492,3,Dr. Reddy,Heart Disease,2024-08-11,2024-08-18,46358,Death
+493,493,4,Dr. Kapoor,Tuberculosis,2024-01-28,2024-02-05,24480,Recovered
+494,494,2,Dr. Kapoor,Typhoid,2024-08-28,2024-09-07,26437,Death
+495,495,4,Dr. Bhatia,Diabetes,2024-09-10,2024-09-13,62870,Referred
+496,496,6,Dr. Reddy,Tuberculosis,2024-08-22,2024-09-08,19744,Death
+497,497,2,Dr. Sharma,Heart Disease,2024-02-17,2024-02-25,42239,Recovered
+498,498,2,Dr. Iyer,COVID-19,2024-10-15,2024-11-04,32839,Death
+499,499,1,Dr. Reddy,Hypertension,2024-08-01,2024-08-05,37264,Referred
+500,500,6,Dr. Sharma,Heart Disease,2024-01-14,2024-01-25,94300,Death
+501,501,1,Dr. Bhatia,Heart Disease,2024-10-29,2024-11-03,47406,Recovered
+502,502,1,Dr. Sharma,Tuberculosis,2024-12-28,2025-01-14,64513,Death
+503,503,3,Dr. Reddy,Typhoid,2024-06-17,2024-06-20,91005,Death
+504,504,4,Dr. Sinha,Hypertension,2024-04-18,2024-04-21,89363,Referred
+505,505,3,Dr. Sharma,Diabetes,2024-10-07,2024-10-21,17130,Referred
+506,506,3,Dr. Kapoor,Asthma,2024-07-23,2024-07-27,7688,Recovered
+507,507,2,Dr. Bhatia,Migraine,2024-05-25,2024-05-31,20807,Referred
+508,508,4,Dr. Bhatia,COVID-19,2024-12-16,2024-12-22,52060,Death
+509,509,1,Dr. Sinha,Asthma,2024-09-07,2024-09-23,55867,Referred
+510,510,3,Dr. Reddy,Migraine,2024-02-16,2024-03-02,53265,Death
+511,511,2,Dr. Bhatia,Migraine,2024-02-17,2024-02-20,72284,Referred
+512,512,4,Dr. Iyer,Asthma,2024-11-27,2024-12-03,69922,Death
+513,513,6,Dr. Iyer,Diabetes,2024-05-28,2024-06-13,62325,Recovered
+514,514,4,Dr. Sinha,Hypertension,2024-03-06,2024-03-17,37591,Death
+515,515,4,Dr. Sinha,Typhoid,2024-10-09,2024-10-13,10910,Death
+516,516,1,Dr. Reddy,Migraine,2024-07-30,2024-08-04,65903,Death
+517,517,6,Dr. Reddy,COVID-19,2024-06-30,2024-07-10,81751,Recovered
+518,518,5,Dr. Sharma,Diabetes,2024-12-04,2024-12-20,28534,Recovered
+519,519,4,Dr. Sharma,Diabetes,2024-08-01,2024-08-12,46149,Death
+520,520,6,Dr. Bhatia,Tuberculosis,2024-11-15,2024-11-25,49739,Recovered
+521,521,2,Dr. Kapoor,Diabetes,2024-11-05,2024-11-15,93265,Recovered
+522,522,4,Dr. Reddy,Typhoid,2024-01-03,2024-01-17,20293,Recovered
+523,523,2,Dr. Iyer,Tuberculosis,2024-08-23,2024-09-06,91208,Death
+524,524,5,Dr. Iyer,Tuberculosis,2024-06-04,2024-06-17,95526,Death
+525,525,6,Dr. Iyer,Migraine,2024-06-03,2024-06-07,21395,Recovered
+526,526,1,Dr. Kapoor,Diabetes,2024-01-09,2024-01-17,8514,Recovered
+527,527,4,Dr. Iyer,Hypertension,2024-11-28,2024-12-07,62119,Death
+528,528,5,Dr. Kapoor,Diabetes,2024-06-03,2024-06-19,24420,Referred
+529,529,4,Dr. Sharma,Diabetes,2024-03-26,2024-04-01,97090,Referred
+530,530,4,Dr. Bhatia,Typhoid,2024-08-18,2024-09-07,36801,Recovered
+531,531,3,Dr. Reddy,Migraine,2024-01-27,2024-02-08,6032,Recovered
+532,532,6,Dr. Iyer,Migraine,2024-07-31,2024-08-17,80846,Death
+533,533,6,Dr. Reddy,COVID-19,2024-01-19,2024-02-05,57386,Referred
+534,534,5,Dr. Reddy,Tuberculosis,2024-04-28,2024-05-01,74246,Recovered
+535,535,4,Dr. Reddy,Heart Disease,2024-10-10,2024-10-14,40107,Death
+536,536,4,Dr. Bhatia,Diabetes,2024-09-10,2024-09-23,63762,Death
+537,537,4,Dr. Sharma,Hypertension,2024-05-27,2024-06-04,66504,Referred
+538,538,4,Dr. Kapoor,Asthma,2024-10-27,2024-11-08,83918,Death
+539,539,6,Dr. Bhatia,Hypertension,2024-05-30,2024-06-13,59638,Death
+540,540,6,Dr. Iyer,Heart Disease,2024-08-29,2024-09-05,86506,Recovered
+541,541,3,Dr. Iyer,Diabetes,2024-12-07,2024-12-24,21920,Recovered
+542,542,2,Dr. Kapoor,Tuberculosis,2024-02-21,2024-03-07,69713,Referred
+543,543,2,Dr. Kapoor,Typhoid,2024-01-10,2024-01-23,39184,Referred
+544,544,6,Dr. Kapoor,Hypertension,2024-09-14,2024-09-17,13344,Referred
+545,545,4,Dr. Sharma,Asthma,2024-03-02,2024-03-21,34372,Referred
+546,546,3,Dr. Sinha,Heart Disease,2024-01-24,2024-02-12,40060,Recovered
+547,547,6,Dr. Reddy,Diabetes,2024-12-27,2024-12-30,62386,Referred
+548,548,1,Dr. Sharma,Diabetes,2024-10-14,2024-10-17,71493,Recovered
+549,549,2,Dr. Iyer,Diabetes,2024-04-15,2024-04-28,25582,Death
+550,550,3,Dr. Iyer,Tuberculosis,2024-09-16,2024-10-03,18014,Recovered
+551,551,6,Dr. Sinha,Heart Disease,2024-03-11,2024-03-16,31462,Referred
+552,552,4,Dr. Sharma,Asthma,2024-08-30,2024-09-11,42585,Death
+553,553,2,Dr. Sharma,COVID-19,2024-07-09,2024-07-24,52270,Death
+554,554,6,Dr. Kapoor,Hypertension,2024-09-28,2024-10-13,34908,Recovered
+555,555,4,Dr. Bhatia,Migraine,2024-08-22,2024-09-09,94417,Referred
+556,556,1,Dr. Bhatia,Hypertension,2024-01-06,2024-01-24,14120,Recovered
+557,557,3,Dr. Sinha,Migraine,2024-03-25,2024-04-09,13056,Referred
+558,558,1,Dr. Iyer,Hypertension,2024-10-21,2024-10-24,87786,Death
+559,559,6,Dr. Reddy,COVID-19,2024-08-02,2024-08-16,94243,Death
+560,560,5,Dr. Sinha,Heart Disease,2024-06-25,2024-06-27,41671,Death
+561,561,5,Dr. Kapoor,Migraine,2024-08-16,2024-08-24,76358,Death
+562,562,5,Dr. Iyer,Tuberculosis,2024-12-23,2025-01-05,90033,Referred
+563,563,2,Dr. Sinha,Diabetes,2024-01-19,2024-02-07,48842,Referred
+564,564,6,Dr. Iyer,Hypertension,2024-09-23,2024-10-12,42214,Recovered
+565,565,1,Dr. Reddy,COVID-19,2024-09-23,2024-10-05,88320,Recovered
+566,566,1,Dr. Sharma,COVID-19,2024-05-03,2024-05-14,60410,Death
+567,567,1,Dr. Iyer,Typhoid,2024-07-09,2024-07-19,87180,Death
+568,568,3,Dr. Sharma,Typhoid,2024-11-29,2024-12-04,63816,Referred
+569,569,5,Dr. Iyer,Typhoid,2024-08-20,2024-09-01,35945,Death
+570,570,5,Dr. Reddy,Asthma,2024-06-28,2024-07-09,42294,Death
+571,571,6,Dr. Reddy,Hypertension,2024-12-31,2025-01-14,73113,Death
+572,572,2,Dr. Sharma,Heart Disease,2024-09-21,2024-10-11,30238,Referred
+573,573,4,Dr. Sharma,Hypertension,2024-12-30,2025-01-14,59008,Recovered
+574,574,1,Dr. Sharma,Migraine,2024-03-07,2024-03-24,33152,Referred
+575,575,1,Dr. Sinha,Migraine,2024-10-28,2024-11-16,73019,Referred
+576,576,3,Dr. Reddy,Tuberculosis,2024-11-21,2024-12-06,62682,Death
+577,577,4,Dr. Iyer,Migraine,2024-03-24,2024-03-30,71294,Recovered
+578,578,4,Dr. Iyer,Tuberculosis,2024-03-07,2024-03-25,74355,Recovered
+579,579,6,Dr. Kapoor,Tuberculosis,2024-08-30,2024-09-02,25557,Death
+580,580,3,Dr. Sharma,Migraine,2024-02-26,2024-03-02,53442,Death
+581,581,3,Dr. Sharma,Hypertension,2024-03-01,2024-03-14,44967,Referred
+582,582,3,Dr. Sinha,Tuberculosis,2024-01-15,2024-01-21,23630,Death
+583,583,4,Dr. Sharma,COVID-19,2024-05-25,2024-06-02,28996,Death
+584,584,4,Dr. Sharma,Diabetes,2024-10-07,2024-10-20,13855,Recovered
+585,585,4,Dr. Bhatia,COVID-19,2024-10-16,2024-11-01,49279,Referred
+586,586,4,Dr. Iyer,Hypertension,2024-03-11,2024-03-29,88422,Referred
+587,587,4,Dr. Iyer,Tuberculosis,2024-03-17,2024-03-29,16706,Death
+588,588,6,Dr. Reddy,Migraine,2024-07-17,2024-07-26,56825,Referred
+589,589,5,Dr. Sharma,Tuberculosis,2024-05-22,2024-05-26,26707,Death
+590,590,1,Dr. Reddy,COVID-19,2024-10-14,2024-10-19,89399,Death
+591,591,1,Dr. Kapoor,Typhoid,2024-10-18,2024-11-05,29824,Referred
+592,592,5,Dr. Sharma,Diabetes,2024-12-03,2024-12-22,28559,Recovered
+593,593,3,Dr. Kapoor,Asthma,2024-12-27,2025-01-16,63226,Recovered
+594,594,5,Dr. Reddy,Heart Disease,2024-07-24,2024-08-13,10896,Referred
+595,595,1,Dr. Sinha,Migraine,2024-04-02,2024-04-17,8153,Death
+596,596,3,Dr. Bhatia,COVID-19,2024-02-16,2024-02-21,18019,Death
+597,597,2,Dr. Sinha,Hypertension,2024-04-03,2024-04-13,16747,Recovered
+598,598,3,Dr. Bhatia,Hypertension,2024-01-31,2024-02-12,28784,Recovered
+599,599,6,Dr. Sharma,COVID-19,2024-07-18,2024-07-23,46948,Recovered
+600,600,4,Dr. Sinha,COVID-19,2024-07-11,2024-07-16,11799,Recovered
+601,601,2,Dr. Reddy,Asthma,2024-09-09,2024-09-27,71115,Referred
+602,602,1,Dr. Sinha,Typhoid,2024-06-11,2024-06-27,77498,Referred
+603,603,1,Dr. Bhatia,Typhoid,2024-07-27,2024-08-05,7440,Referred
+604,604,5,Dr. Reddy,Diabetes,2024-05-06,2024-05-25,90400,Recovered
+605,605,3,Dr. Reddy,Migraine,2024-08-16,2024-08-20,88335,Death
+606,606,2,Dr. Kapoor,Heart Disease,2024-10-03,2024-10-10,37133,Death
+607,607,4,Dr. Reddy,Tuberculosis,2024-01-22,2024-01-24,65902,Death
+608,608,3,Dr. Iyer,Hypertension,2024-01-01,2024-01-04,68201,Referred
+609,609,5,Dr. Sinha,Migraine,2024-06-28,2024-07-06,81697,Death
+610,610,3,Dr. Sharma,Hypertension,2024-09-30,2024-10-20,14166,Referred
+611,611,1,Dr. Bhatia,Diabetes,2024-03-12,2024-03-31,41629,Referred
+612,612,2,Dr. Reddy,Heart Disease,2024-12-15,2024-12-27,88252,Referred
+613,613,6,Dr. Bhatia,COVID-19,2024-05-05,2024-05-17,49778,Recovered
+614,614,4,Dr. Reddy,Heart Disease,2024-01-09,2024-01-15,89730,Recovered
+615,615,5,Dr. Bhatia,Typhoid,2024-01-05,2024-01-12,59154,Death
+616,616,6,Dr. Iyer,Tuberculosis,2024-07-20,2024-08-08,15636,Death
+617,617,6,Dr. Sharma,Typhoid,2024-12-09,2024-12-25,93112,Recovered
+618,618,3,Dr. Bhatia,Heart Disease,2024-07-17,2024-07-24,96361,Recovered
+619,619,1,Dr. Bhatia,Heart Disease,2024-04-08,2024-04-24,6227,Recovered
+620,620,6,Dr. Sharma,COVID-19,2024-12-14,2024-12-27,30101,Recovered
+621,621,5,Dr. Iyer,COVID-19,2024-04-23,2024-05-02,69724,Referred
+622,622,1,Dr. Sinha,Tuberculosis,2024-12-26,2025-01-03,5935,Recovered
+623,623,6,Dr. Bhatia,Diabetes,2024-05-22,2024-06-11,70578,Referred
+624,624,2,Dr. Reddy,Asthma,2024-12-03,2024-12-23,93103,Death
+625,625,5,Dr. Reddy,Hypertension,2024-02-03,2024-02-23,21809,Death
+626,626,1,Dr. Kapoor,COVID-19,2024-10-18,2024-10-27,73561,Death
+627,627,3,Dr. Kapoor,Typhoid,2024-12-20,2025-01-08,85538,Referred
+628,628,6,Dr. Reddy,Tuberculosis,2024-01-02,2024-01-17,89012,Death
+629,629,6,Dr. Sharma,Heart Disease,2024-08-09,2024-08-24,40918,Recovered
+630,630,6,Dr. Reddy,Tuberculosis,2024-09-10,2024-09-23,72797,Recovered
+631,631,6,Dr. Kapoor,Typhoid,2024-05-22,2024-06-06,74784,Referred
+632,632,3,Dr. Sharma,Migraine,2024-04-09,2024-04-21,15722,Death
+633,633,1,Dr. Iyer,Asthma,2024-12-19,2025-01-03,14757,Recovered
+634,634,2,Dr. Kapoor,Heart Disease,2024-06-08,2024-06-12,87050,Death
+635,635,1,Dr. Sharma,Tuberculosis,2024-08-09,2024-08-11,82664,Death
+636,636,3,Dr. Sinha,Asthma,2024-02-25,2024-03-13,36242,Referred
+637,637,1,Dr. Sinha,Asthma,2024-02-07,2024-02-23,17539,Death
+638,638,4,Dr. Reddy,Diabetes,2024-02-13,2024-02-16,9370,Referred
+639,639,3,Dr. Iyer,Diabetes,2024-03-06,2024-03-09,62923,Recovered
+640,640,3,Dr. Reddy,Migraine,2024-02-03,2024-02-08,93809,Recovered
+641,641,5,Dr. Sharma,COVID-19,2024-07-14,2024-07-28,17560,Death
+642,642,4,Dr. Kapoor,Typhoid,2024-08-20,2024-09-03,65844,Referred
+643,643,5,Dr. Reddy,Diabetes,2024-06-22,2024-06-24,64516,Death
+644,644,3,Dr. Reddy,Asthma,2024-02-25,2024-03-01,6610,Death
+645,645,6,Dr. Sharma,Asthma,2024-10-20,2024-10-26,88540,Death
+646,646,3,Dr. Sinha,Migraine,2024-09-03,2024-09-19,29369,Recovered
+647,647,2,Dr. Sharma,Typhoid,2024-03-06,2024-03-17,81614,Referred
+648,648,5,Dr. Iyer,Heart Disease,2024-06-08,2024-06-28,75928,Recovered
+649,649,2,Dr. Bhatia,COVID-19,2024-11-04,2024-11-16,43150,Referred
+650,650,1,Dr. Reddy,Hypertension,2024-01-30,2024-02-08,71467,Death
+651,651,1,Dr. Bhatia,Heart Disease,2024-04-10,2024-04-18,88958,Recovered
+652,652,1,Dr. Sinha,Asthma,2024-12-07,2024-12-24,96066,Death
+653,653,4,Dr. Reddy,Heart Disease,2024-10-23,2024-11-12,48995,Death
+654,654,3,Dr. Bhatia,Heart Disease,2024-03-24,2024-03-29,64546,Recovered
+655,655,4,Dr. Kapoor,Typhoid,2024-11-23,2024-12-02,95861,Recovered
+656,656,4,Dr. Reddy,Asthma,2024-05-02,2024-05-19,48452,Death
+657,657,4,Dr. Kapoor,Migraine,2024-04-04,2024-04-06,52555,Recovered
+658,658,1,Dr. Sinha,Typhoid,2024-10-11,2024-10-16,23664,Referred
+659,659,4,Dr. Kapoor,Heart Disease,2024-01-23,2024-01-25,31099,Recovered
+660,660,3,Dr. Kapoor,Asthma,2024-05-14,2024-05-21,49540,Death
+661,661,2,Dr. Kapoor,Asthma,2024-01-12,2024-01-19,39313,Recovered
+662,662,1,Dr. Iyer,Hypertension,2024-07-13,2024-07-18,49352,Recovered
+663,663,3,Dr. Bhatia,Asthma,2024-07-08,2024-07-21,91626,Recovered
+664,664,5,Dr. Reddy,Migraine,2024-12-30,2025-01-03,20531,Recovered
+665,665,2,Dr. Kapoor,Asthma,2024-09-29,2024-10-13,96010,Referred
+666,666,3,Dr. Reddy,Migraine,2024-11-21,2024-11-30,11054,Death
+667,667,5,Dr. Kapoor,COVID-19,2024-03-17,2024-03-29,37397,Recovered
+668,668,6,Dr. Sinha,Hypertension,2024-09-17,2024-10-07,69092,Recovered
+669,669,6,Dr. Sharma,Tuberculosis,2024-12-05,2024-12-09,26945,Death
+670,670,4,Dr. Iyer,Heart Disease,2024-09-12,2024-09-30,65852,Recovered
+671,671,3,Dr. Iyer,Heart Disease,2024-09-26,2024-10-13,98801,Referred
+672,672,4,Dr. Sinha,Migraine,2024-11-22,2024-12-12,90162,Recovered
+673,673,2,Dr. Kapoor,Asthma,2024-08-19,2024-08-28,56891,Recovered
+674,674,3,Dr. Bhatia,Migraine,2024-10-19,2024-10-26,54034,Referred
+675,675,5,Dr. Sharma,Hypertension,2024-02-13,2024-02-24,63262,Death
+676,676,3,Dr. Kapoor,Typhoid,2024-08-26,2024-09-13,86412,Referred
+677,677,4,Dr. Bhatia,Tuberculosis,2024-08-09,2024-08-24,53170,Referred
+678,678,3,Dr. Sinha,Migraine,2024-01-13,2024-01-20,62892,Recovered
+679,679,3,Dr. Iyer,Diabetes,2024-07-02,2024-07-06,43603,Death
+680,680,5,Dr. Reddy,Diabetes,2024-05-21,2024-05-30,17898,Recovered
+681,681,1,Dr. Sinha,Typhoid,2024-10-06,2024-10-14,48746,Recovered
+682,682,6,Dr. Sinha,COVID-19,2024-06-03,2024-06-13,29987,Death
+683,683,5,Dr. Kapoor,COVID-19,2024-01-05,2024-01-16,41942,Referred
+684,684,4,Dr. Bhatia,Typhoid,2024-08-29,2024-09-16,24566,Referred
+685,685,2,Dr. Kapoor,Asthma,2024-08-30,2024-09-08,72610,Death
+686,686,5,Dr. Bhatia,Tuberculosis,2024-06-23,2024-06-27,46035,Recovered
+687,687,4,Dr. Iyer,Migraine,2024-04-17,2024-05-03,63978,Death
+688,688,1,Dr. Sinha,Hypertension,2024-10-22,2024-10-28,45051,Death
+689,689,1,Dr. Bhatia,Heart Disease,2024-06-22,2024-07-01,59938,Referred
+690,690,6,Dr. Bhatia,COVID-19,2024-06-15,2024-07-05,8046,Death
+691,691,1,Dr. Kapoor,Hypertension,2024-06-18,2024-07-08,87554,Death
+692,692,5,Dr. Reddy,Migraine,2024-07-14,2024-07-22,56201,Recovered
+693,693,5,Dr. Bhatia,Asthma,2024-08-31,2024-09-05,48101,Death
+694,694,4,Dr. Iyer,COVID-19,2024-02-17,2024-02-24,18672,Death
+695,695,5,Dr. Kapoor,Typhoid,2024-12-18,2025-01-04,8517,Recovered
+696,696,2,Dr. Sharma,Migraine,2024-05-25,2024-06-02,35544,Referred
+697,697,6,Dr. Reddy,Diabetes,2024-08-20,2024-08-23,53319,Death
+698,698,1,Dr. Kapoor,Heart Disease,2024-07-29,2024-08-12,25582,Recovered
+699,699,2,Dr. Reddy,Migraine,2024-09-01,2024-09-05,55986,Recovered
+700,700,2,Dr. Kapoor,COVID-19,2024-08-09,2024-08-26,25811,Death
+701,701,5,Dr. Sinha,Asthma,2024-09-14,2024-09-30,41102,Recovered
+702,702,1,Dr. Kapoor,Tuberculosis,2024-02-02,2024-02-16,84278,Recovered
+703,703,5,Dr. Sinha,Tuberculosis,2024-08-23,2024-09-08,80514,Recovered
+704,704,6,Dr. Sharma,COVID-19,2024-11-26,2024-12-12,50453,Death
+705,705,6,Dr. Sinha,Migraine,2024-11-09,2024-11-16,59401,Recovered
+706,706,2,Dr. Reddy,Migraine,2024-08-22,2024-09-05,91386,Recovered
+707,707,6,Dr. Reddy,Diabetes,2024-07-20,2024-07-23,36417,Recovered
+708,708,3,Dr. Iyer,COVID-19,2024-12-07,2024-12-11,96494,Death
+709,709,6,Dr. Kapoor,Tuberculosis,2024-07-29,2024-08-17,20889,Referred
+710,710,1,Dr. Sharma,Heart Disease,2024-07-28,2024-08-13,26605,Referred
+711,711,2,Dr. Reddy,Typhoid,2024-08-24,2024-08-26,14593,Death
+712,712,6,Dr. Iyer,Tuberculosis,2024-07-14,2024-07-26,57342,Recovered
+713,713,4,Dr. Sharma,Typhoid,2024-05-08,2024-05-13,97943,Recovered
+714,714,3,Dr. Iyer,Tuberculosis,2024-09-05,2024-09-21,13943,Recovered
+715,715,5,Dr. Iyer,Asthma,2024-12-31,2025-01-16,23383,Referred
+716,716,3,Dr. Kapoor,Hypertension,2024-01-10,2024-01-15,28230,Referred
+717,717,1,Dr. Reddy,Migraine,2024-03-27,2024-03-31,93000,Recovered
+718,718,6,Dr. Sinha,Hypertension,2024-08-13,2024-08-26,28322,Recovered
+719,719,6,Dr. Sharma,Asthma,2024-08-14,2024-08-17,88203,Death
+720,720,6,Dr. Iyer,Diabetes,2024-07-18,2024-07-29,63194,Recovered
+721,721,5,Dr. Sharma,Typhoid,2024-07-12,2024-07-20,37728,Referred
+722,722,2,Dr. Kapoor,Diabetes,2024-01-09,2024-01-24,8662,Recovered
+723,723,3,Dr. Kapoor,Diabetes,2024-04-22,2024-04-27,92046,Recovered
+724,724,6,Dr. Kapoor,Typhoid,2024-07-31,2024-08-18,19114,Referred
+725,725,3,Dr. Reddy,Asthma,2024-11-15,2024-11-23,76002,Referred
+726,726,4,Dr. Sharma,Asthma,2024-04-19,2024-04-24,51737,Referred
+727,727,2,Dr. Sharma,Migraine,2024-11-30,2024-12-12,6570,Referred
+728,728,2,Dr. Bhatia,Asthma,2024-02-03,2024-02-13,90189,Death
+729,729,3,Dr. Sharma,Diabetes,2024-04-21,2024-05-06,44522,Death
+730,730,4,Dr. Sharma,Hypertension,2024-05-08,2024-05-13,83625,Referred
+731,731,6,Dr. Iyer,Migraine,2024-12-13,2024-12-19,48522,Recovered
+732,732,6,Dr. Iyer,Heart Disease,2024-12-07,2024-12-24,13849,Referred
+733,733,1,Dr. Reddy,Tuberculosis,2024-07-14,2024-08-01,88963,Death
+734,734,2,Dr. Reddy,Typhoid,2024-04-29,2024-05-01,85786,Recovered
+735,735,3,Dr. Kapoor,Migraine,2024-05-04,2024-05-08,12854,Recovered
+736,736,3,Dr. Bhatia,COVID-19,2024-04-13,2024-04-19,54250,Recovered
+737,737,6,Dr. Sharma,Asthma,2024-11-02,2024-11-18,48082,Recovered
+738,738,3,Dr. Sinha,Typhoid,2024-09-23,2024-10-08,89940,Referred
+739,739,1,Dr. Kapoor,Heart Disease,2024-06-24,2024-07-03,31976,Death
+740,740,1,Dr. Iyer,Asthma,2024-12-17,2024-12-26,84700,Referred
+741,741,5,Dr. Sinha,Hypertension,2024-08-14,2024-08-16,13469,Referred
+742,742,1,Dr. Kapoor,Typhoid,2024-11-20,2024-11-26,31767,Recovered
+743,743,1,Dr. Kapoor,Asthma,2024-04-30,2024-05-18,15245,Referred
+744,744,6,Dr. Bhatia,COVID-19,2024-03-25,2024-04-02,37102,Referred
+745,745,2,Dr. Reddy,Asthma,2024-06-04,2024-06-15,80552,Referred
+746,746,6,Dr. Kapoor,COVID-19,2024-09-03,2024-09-07,52131,Referred
+747,747,4,Dr. Kapoor,Tuberculosis,2024-08-13,2024-08-28,71229,Death
+748,748,6,Dr. Bhatia,Hypertension,2024-09-03,2024-09-05,54993,Referred
+749,749,1,Dr. Sinha,Hypertension,2024-10-10,2024-10-17,38723,Referred
+750,750,4,Dr. Sinha,Tuberculosis,2024-05-25,2024-06-08,78681,Death
+751,751,4,Dr. Sharma,Heart Disease,2024-03-10,2024-03-27,30652,Recovered
+752,752,2,Dr. Sharma,Typhoid,2024-09-13,2024-09-26,69415,Referred
+753,753,4,Dr. Bhatia,Heart Disease,2024-07-15,2024-08-01,45345,Death
+754,754,5,Dr. Sharma,Migraine,2024-01-20,2024-01-25,55439,Death
+755,755,2,Dr. Kapoor,Migraine,2024-05-10,2024-05-23,71795,Death
+756,756,4,Dr. Iyer,Heart Disease,2024-12-22,2024-12-25,90315,Referred
+757,757,4,Dr. Iyer,Asthma,2024-05-04,2024-05-21,9522,Referred
+758,758,6,Dr. Iyer,Typhoid,2024-12-23,2024-12-29,39253,Death
+759,759,4,Dr. Iyer,Hypertension,2024-05-10,2024-05-19,83924,Death
+760,760,6,Dr. Kapoor,Typhoid,2024-02-29,2024-03-04,89462,Death
+761,761,4,Dr. Bhatia,Diabetes,2024-09-22,2024-09-30,60436,Recovered
+762,762,4,Dr. Sinha,COVID-19,2024-09-13,2024-10-02,91309,Referred
+763,763,5,Dr. Sinha,Migraine,2024-02-15,2024-02-20,88385,Death
+764,764,3,Dr. Kapoor,COVID-19,2024-04-17,2024-05-01,96620,Referred
+765,765,1,Dr. Kapoor,Tuberculosis,2024-01-01,2024-01-06,14154,Death
+766,766,4,Dr. Reddy,Migraine,2024-12-01,2024-12-12,61485,Recovered
+767,767,2,Dr. Sinha,Hypertension,2024-12-26,2025-01-01,30954,Referred
+768,768,2,Dr. Reddy,Diabetes,2024-08-18,2024-09-07,32862,Recovered
+769,769,2,Dr. Sharma,Hypertension,2024-04-08,2024-04-18,58581,Referred
+770,770,6,Dr. Reddy,Diabetes,2024-11-21,2024-11-28,15460,Referred
+771,771,1,Dr. Bhatia,Diabetes,2024-05-21,2024-05-25,49846,Recovered
+772,772,5,Dr. Kapoor,Tuberculosis,2024-09-05,2024-09-10,6246,Recovered
+773,773,3,Dr. Sharma,Typhoid,2024-02-19,2024-02-27,73463,Recovered
+774,774,4,Dr. Reddy,COVID-19,2024-09-05,2024-09-22,49175,Death
+775,775,4,Dr. Sinha,Heart Disease,2024-12-15,2024-12-27,46317,Recovered
+776,776,3,Dr. Iyer,Migraine,2024-07-12,2024-07-15,51665,Referred
+777,777,1,Dr. Sharma,Tuberculosis,2024-12-23,2025-01-06,23201,Recovered
+778,778,5,Dr. Sharma,COVID-19,2024-12-24,2025-01-02,53290,Referred
+779,779,5,Dr. Iyer,Tuberculosis,2024-09-20,2024-10-05,91537,Recovered
+780,780,1,Dr. Iyer,Heart Disease,2024-01-09,2024-01-22,10997,Death
+781,781,3,Dr. Iyer,Tuberculosis,2024-04-29,2024-05-16,57450,Death
+782,782,5,Dr. Sharma,Heart Disease,2024-08-07,2024-08-24,91289,Death
+783,783,1,Dr. Iyer,Migraine,2024-05-30,2024-06-07,98315,Recovered
+784,784,5,Dr. Reddy,Typhoid,2024-03-06,2024-03-23,16415,Referred
+785,785,6,Dr. Reddy,Tuberculosis,2024-03-27,2024-04-12,20162,Referred
+786,786,6,Dr. Reddy,Asthma,2024-05-04,2024-05-12,27338,Death
+787,787,6,Dr. Sharma,Diabetes,2024-08-10,2024-08-12,26002,Referred
+788,788,4,Dr. Sinha,Asthma,2024-05-11,2024-05-28,92897,Recovered
+789,789,6,Dr. Kapoor,Tuberculosis,2024-02-16,2024-02-28,34334,Death
+790,790,5,Dr. Sharma,Heart Disease,2024-07-12,2024-07-26,90710,Death
+791,791,5,Dr. Bhatia,Asthma,2024-04-24,2024-05-04,20163,Referred
+792,792,1,Dr. Sharma,Diabetes,2024-06-23,2024-07-13,29662,Death
+793,793,1,Dr. Reddy,Heart Disease,2024-03-06,2024-03-18,54832,Death
+794,794,6,Dr. Sharma,COVID-19,2024-02-01,2024-02-21,75202,Recovered
+795,795,4,Dr. Bhatia,Heart Disease,2024-07-05,2024-07-11,73124,Death
+796,796,5,Dr. Reddy,Asthma,2024-02-24,2024-03-09,6204,Death
+797,797,4,Dr. Sinha,Hypertension,2024-05-31,2024-06-09,70514,Death
+798,798,4,Dr. Kapoor,COVID-19,2024-03-15,2024-03-18,83496,Referred
+799,799,3,Dr. Reddy,Diabetes,2024-05-20,2024-06-09,67689,Death
+800,800,2,Dr. Bhatia,COVID-19,2024-12-26,2025-01-09,12708,Referred
+801,801,2,Dr. Iyer,Asthma,2024-04-25,2024-04-28,28464,Referred
+802,802,6,Dr. Bhatia,COVID-19,2024-12-03,2024-12-10,7826,Death
+803,803,4,Dr. Sinha,Migraine,2024-12-13,2024-12-30,50653,Referred
+804,804,4,Dr. Sharma,COVID-19,2024-05-24,2024-06-01,96895,Death
+805,805,4,Dr. Sharma,Hypertension,2024-06-14,2024-07-04,12094,Death
+806,806,3,Dr. Bhatia,Hypertension,2024-10-22,2024-10-28,62918,Death
+807,807,4,Dr. Sinha,Hypertension,2024-04-17,2024-04-25,30644,Death
+808,808,6,Dr. Sharma,Heart Disease,2024-10-21,2024-10-26,93908,Recovered
+809,809,4,Dr. Bhatia,Hypertension,2024-01-29,2024-02-03,51607,Referred
+810,810,2,Dr. Sharma,Diabetes,2024-09-20,2024-10-02,82777,Referred
+811,811,2,Dr. Iyer,Migraine,2024-05-05,2024-05-08,20571,Recovered
+812,812,4,Dr. Bhatia,COVID-19,2024-12-18,2024-12-25,90563,Death
+813,813,4,Dr. Iyer,Diabetes,2024-08-25,2024-09-08,41073,Death
+814,814,6,Dr. Bhatia,Heart Disease,2024-01-06,2024-01-11,20286,Recovered
+815,815,1,Dr. Bhatia,Asthma,2024-01-12,2024-02-01,80101,Death
+816,816,4,Dr. Sinha,Diabetes,2024-10-30,2024-11-06,55326,Referred
+817,817,6,Dr. Iyer,Migraine,2024-06-01,2024-06-21,21414,Recovered
+818,818,3,Dr. Sharma,Hypertension,2024-07-26,2024-07-28,56615,Death
+819,819,5,Dr. Reddy,Tuberculosis,2024-02-02,2024-02-20,81640,Death
+820,820,6,Dr. Iyer,Diabetes,2024-04-16,2024-04-21,28680,Death
+821,821,6,Dr. Kapoor,Typhoid,2024-10-11,2024-10-27,46195,Recovered
+822,822,1,Dr. Kapoor,Asthma,2024-11-30,2024-12-07,16510,Death
+823,823,3,Dr. Sharma,Diabetes,2024-03-04,2024-03-22,44135,Referred
+824,824,5,Dr. Kapoor,Migraine,2024-12-02,2024-12-04,37550,Referred
+825,825,1,Dr. Reddy,COVID-19,2024-12-03,2024-12-22,63316,Recovered
+826,826,5,Dr. Bhatia,Heart Disease,2024-09-24,2024-10-07,84452,Death
+827,827,5,Dr. Kapoor,Diabetes,2024-12-05,2024-12-08,36077,Recovered
+828,828,2,Dr. Kapoor,COVID-19,2024-04-20,2024-04-26,83924,Death
+829,829,2,Dr. Reddy,Heart Disease,2024-05-22,2024-05-28,86567,Referred
+830,830,1,Dr. Reddy,COVID-19,2024-05-13,2024-05-27,90166,Recovered
+831,831,4,Dr. Bhatia,Diabetes,2024-05-10,2024-05-25,96031,Recovered
+832,832,5,Dr. Kapoor,Diabetes,2024-11-18,2024-11-28,87984,Death
+833,833,6,Dr. Kapoor,Heart Disease,2024-10-15,2024-11-02,84291,Recovered
+834,834,4,Dr. Kapoor,Heart Disease,2024-08-10,2024-08-24,8396,Death
+835,835,2,Dr. Sharma,COVID-19,2024-03-04,2024-03-23,19416,Death
+836,836,5,Dr. Bhatia,Diabetes,2024-06-17,2024-06-21,52555,Referred
+837,837,3,Dr. Kapoor,Asthma,2024-05-20,2024-05-22,17838,Referred
+838,838,2,Dr. Bhatia,Diabetes,2024-03-04,2024-03-11,74006,Death
+839,839,3,Dr. Reddy,Tuberculosis,2024-02-18,2024-03-07,50731,Death
+840,840,5,Dr. Sinha,COVID-19,2024-11-07,2024-11-12,11286,Recovered
+841,841,3,Dr. Bhatia,Hypertension,2024-06-25,2024-07-14,77308,Death
+842,842,4,Dr. Bhatia,Hypertension,2024-05-12,2024-05-14,95001,Death
+843,843,6,Dr. Kapoor,Hypertension,2024-03-14,2024-03-28,79391,Death
+844,844,3,Dr. Sharma,Heart Disease,2024-12-28,2025-01-06,93895,Death
+845,845,4,Dr. Iyer,Tuberculosis,2024-04-03,2024-04-19,51399,Referred
+846,846,5,Dr. Sinha,COVID-19,2024-08-07,2024-08-25,99170,Recovered
+847,847,3,Dr. Iyer,Diabetes,2024-06-05,2024-06-20,45991,Recovered
+848,848,6,Dr. Sharma,Diabetes,2024-05-02,2024-05-06,26641,Death
+849,849,1,Dr. Sharma,COVID-19,2024-10-10,2024-10-27,6401,Referred
+850,850,6,Dr. Reddy,Hypertension,2024-09-02,2024-09-19,72503,Death
+851,851,6,Dr. Reddy,Diabetes,2024-07-26,2024-07-28,85777,Recovered
+852,852,6,Dr. Sharma,Migraine,2024-12-25,2025-01-13,50227,Recovered
+853,853,6,Dr. Iyer,Typhoid,2024-11-06,2024-11-22,27089,Death
+854,854,5,Dr. Kapoor,Hypertension,2024-02-08,2024-02-21,22474,Death
+855,855,3,Dr. Sharma,Migraine,2024-09-10,2024-09-24,27345,Referred
+856,856,1,Dr. Sinha,Asthma,2024-10-03,2024-10-08,43019,Referred
+857,857,4,Dr. Sinha,COVID-19,2024-04-19,2024-04-21,87729,Death
+858,858,4,Dr. Kapoor,COVID-19,2024-11-25,2024-12-13,9643,Referred
+859,859,5,Dr. Bhatia,Typhoid,2024-07-01,2024-07-03,85678,Referred
+860,860,3,Dr. Sinha,Heart Disease,2024-02-24,2024-02-26,50838,Death
+861,861,2,Dr. Bhatia,Heart Disease,2024-01-05,2024-01-10,61466,Referred
+862,862,2,Dr. Sharma,Hypertension,2024-07-29,2024-08-03,68886,Recovered
+863,863,2,Dr. Iyer,COVID-19,2024-04-25,2024-05-12,56820,Referred
+864,864,3,Dr. Sinha,Migraine,2024-04-03,2024-04-22,40321,Recovered
+865,865,4,Dr. Iyer,Tuberculosis,2024-03-23,2024-03-29,51365,Death
+866,866,4,Dr. Sharma,Heart Disease,2024-12-29,2025-01-06,19505,Recovered
+867,867,3,Dr. Sharma,Hypertension,2024-07-21,2024-08-05,48412,Recovered
+868,868,2,Dr. Iyer,Asthma,2024-09-02,2024-09-12,20570,Referred
+869,869,4,Dr. Reddy,Tuberculosis,2024-12-15,2024-12-21,47583,Referred
+870,870,5,Dr. Iyer,Migraine,2024-03-08,2024-03-13,19139,Recovered
+871,871,2,Dr. Kapoor,Heart Disease,2024-09-13,2024-09-15,94710,Recovered
+872,872,1,Dr. Iyer,Heart Disease,2024-08-07,2024-08-09,61928,Referred
+873,873,3,Dr. Sinha,Tuberculosis,2024-02-12,2024-02-27,37472,Death
+874,874,2,Dr. Iyer,Hypertension,2024-05-07,2024-05-17,20075,Referred
+875,875,6,Dr. Kapoor,Migraine,2024-04-11,2024-04-28,97597,Recovered
+876,876,6,Dr. Iyer,Hypertension,2024-04-06,2024-04-26,87432,Death
+877,877,2,Dr. Kapoor,Diabetes,2024-03-08,2024-03-22,10028,Referred
+878,878,2,Dr. Kapoor,Migraine,2024-01-10,2024-01-18,16919,Recovered
+879,879,4,Dr. Bhatia,COVID-19,2024-12-24,2025-01-02,34068,Referred
+880,880,4,Dr. Bhatia,Typhoid,2024-09-18,2024-10-03,89393,Recovered
+881,881,3,Dr. Sharma,COVID-19,2024-07-05,2024-07-15,51009,Death
+882,882,4,Dr. Kapoor,Heart Disease,2024-01-25,2024-02-01,10359,Recovered
+883,883,1,Dr. Iyer,Heart Disease,2024-04-18,2024-04-29,66873,Referred
+884,884,5,Dr. Sharma,Migraine,2024-04-04,2024-04-14,69393,Referred
+885,885,3,Dr. Sinha,Diabetes,2024-02-19,2024-02-21,94517,Death
+886,886,2,Dr. Sinha,Heart Disease,2024-07-04,2024-07-24,74319,Death
+887,887,3,Dr. Kapoor,COVID-19,2024-04-17,2024-05-07,55338,Recovered
+888,888,1,Dr. Kapoor,Diabetes,2024-01-22,2024-02-11,90767,Recovered
+889,889,2,Dr. Iyer,Tuberculosis,2024-02-20,2024-02-24,76641,Death
+890,890,3,Dr. Sinha,Tuberculosis,2024-04-13,2024-05-02,99472,Recovered
+891,891,1,Dr. Kapoor,Asthma,2024-08-02,2024-08-21,98271,Referred
+892,892,5,Dr. Sinha,Heart Disease,2024-08-17,2024-08-22,62163,Recovered
+893,893,4,Dr. Bhatia,Typhoid,2024-03-26,2024-04-05,96318,Recovered
+894,894,3,Dr. Sharma,Typhoid,2024-12-21,2024-12-29,57100,Referred
+895,895,6,Dr. Reddy,Diabetes,2024-03-25,2024-04-10,71752,Referred
+896,896,5,Dr. Bhatia,Migraine,2024-11-06,2024-11-16,32122,Recovered
+897,897,1,Dr. Kapoor,Asthma,2024-10-30,2024-11-01,72213,Referred
+898,898,5,Dr. Iyer,COVID-19,2024-06-04,2024-06-13,43844,Death
+899,899,3,Dr. Reddy,Diabetes,2024-03-28,2024-04-06,10978,Death
+900,900,2,Dr. Sinha,Typhoid,2024-11-23,2024-11-29,41406,Recovered
+901,901,3,Dr. Sharma,Asthma,2024-04-17,2024-05-06,20228,Recovered
+902,902,6,Dr. Sinha,Heart Disease,2024-06-15,2024-06-19,97466,Death
+903,903,3,Dr. Iyer,Hypertension,2024-07-28,2024-08-08,47550,Recovered
+904,904,6,Dr. Sharma,Heart Disease,2024-04-22,2024-05-02,28165,Referred
+905,905,1,Dr. Reddy,Diabetes,2024-12-18,2025-01-01,90698,Referred
+906,906,6,Dr. Iyer,Asthma,2024-08-14,2024-08-23,47501,Referred
+907,907,2,Dr. Reddy,Migraine,2024-03-20,2024-04-05,35372,Death
+908,908,6,Dr. Bhatia,Heart Disease,2024-03-16,2024-04-02,17280,Referred
+909,909,2,Dr. Bhatia,Hypertension,2024-03-31,2024-04-08,79666,Referred
+910,910,6,Dr. Kapoor,COVID-19,2024-01-11,2024-01-22,26354,Recovered
+911,911,4,Dr. Iyer,Asthma,2024-02-05,2024-02-11,14443,Referred
+912,912,2,Dr. Bhatia,Migraine,2024-02-21,2024-03-10,22995,Death
+913,913,1,Dr. Reddy,Diabetes,2024-07-12,2024-07-26,7715,Recovered
+914,914,1,Dr. Iyer,Typhoid,2024-03-08,2024-03-17,15957,Referred
+915,915,2,Dr. Iyer,Typhoid,2024-01-05,2024-01-10,76089,Death
+916,916,3,Dr. Iyer,Diabetes,2024-04-13,2024-04-19,67970,Death
+917,917,4,Dr. Kapoor,COVID-19,2024-06-18,2024-07-05,25252,Recovered
+918,918,1,Dr. Reddy,COVID-19,2024-11-17,2024-12-06,21131,Recovered
+919,919,1,Dr. Sharma,COVID-19,2024-02-22,2024-03-11,59432,Recovered
+920,920,1,Dr. Kapoor,Typhoid,2024-04-26,2024-05-11,55512,Recovered
+921,921,3,Dr. Iyer,COVID-19,2024-04-25,2024-05-09,95015,Death
+922,922,1,Dr. Bhatia,Hypertension,2024-02-26,2024-03-06,18334,Referred
+923,923,3,Dr. Sharma,Heart Disease,2024-03-01,2024-03-14,16115,Recovered
+924,924,5,Dr. Kapoor,Hypertension,2024-08-07,2024-08-25,48888,Death
+925,925,2,Dr. Iyer,Migraine,2024-03-17,2024-03-28,86888,Referred
+926,926,3,Dr. Sharma,COVID-19,2024-09-12,2024-09-25,39786,Death
+927,927,1,Dr. Sharma,Hypertension,2024-12-01,2024-12-07,46976,Recovered
+928,928,4,Dr. Bhatia,Tuberculosis,2024-02-04,2024-02-09,80739,Referred
+929,929,6,Dr. Sinha,Hypertension,2024-02-16,2024-02-28,21716,Recovered
+930,930,4,Dr. Sinha,Heart Disease,2024-09-10,2024-09-25,68083,Death
+931,931,4,Dr. Reddy,Heart Disease,2024-03-11,2024-03-20,55224,Referred
+932,932,5,Dr. Bhatia,Tuberculosis,2024-09-29,2024-10-18,35161,Referred
+933,933,1,Dr. Reddy,Migraine,2024-09-26,2024-10-16,95898,Death
+934,934,2,Dr. Iyer,Diabetes,2024-04-30,2024-05-13,5375,Recovered
+935,935,1,Dr. Sinha,Tuberculosis,2024-03-09,2024-03-14,12808,Referred
+936,936,3,Dr. Kapoor,COVID-19,2024-08-23,2024-08-29,77286,Referred
+937,937,2,Dr. Kapoor,Asthma,2024-01-29,2024-02-04,20366,Death
+938,938,6,Dr. Kapoor,Migraine,2024-01-14,2024-01-29,53717,Recovered
+939,939,6,Dr. Sharma,Diabetes,2024-09-01,2024-09-08,8956,Recovered
+940,940,3,Dr. Kapoor,Diabetes,2024-05-05,2024-05-09,6635,Death
+941,941,4,Dr. Kapoor,Hypertension,2024-08-28,2024-09-03,74133,Death
+942,942,3,Dr. Bhatia,Migraine,2024-06-21,2024-07-07,89521,Death
+943,943,1,Dr. Sinha,Diabetes,2024-03-20,2024-03-23,89207,Recovered
+944,944,5,Dr. Kapoor,Hypertension,2024-01-06,2024-01-20,60524,Death
+945,945,4,Dr. Reddy,COVID-19,2024-10-19,2024-11-06,45112,Death
+946,946,2,Dr. Bhatia,Hypertension,2024-05-19,2024-05-23,73354,Referred
+947,947,2,Dr. Iyer,Asthma,2024-07-24,2024-07-27,33692,Referred
+948,948,2,Dr. Iyer,Diabetes,2024-12-20,2025-01-05,67575,Referred
+949,949,6,Dr. Iyer,Migraine,2024-07-13,2024-07-20,12165,Referred
+950,950,6,Dr. Bhatia,Asthma,2024-05-18,2024-05-23,18683,Recovered
+951,951,3,Dr. Reddy,Heart Disease,2024-01-15,2024-01-24,41989,Recovered
+952,952,5,Dr. Sharma,Diabetes,2024-04-18,2024-04-20,45516,Recovered
+953,953,5,Dr. Kapoor,Typhoid,2024-05-03,2024-05-13,16146,Death
+954,954,5,Dr. Sharma,Tuberculosis,2024-01-24,2024-01-27,46232,Recovered
+955,955,3,Dr. Sharma,Heart Disease,2024-05-24,2024-06-07,70564,Recovered
+956,956,3,Dr. Bhatia,Heart Disease,2024-03-07,2024-03-12,48426,Referred
+957,957,6,Dr. Reddy,Diabetes,2024-09-14,2024-09-20,8104,Death
+958,958,4,Dr. Bhatia,Typhoid,2024-05-28,2024-06-04,24862,Death
+959,959,4,Dr. Sharma,Diabetes,2024-04-28,2024-05-06,94320,Death
+960,960,2,Dr. Iyer,Hypertension,2024-09-13,2024-10-01,84788,Death
+961,961,5,Dr. Sinha,Tuberculosis,2024-03-08,2024-03-20,43121,Referred
+962,962,5,Dr. Bhatia,Typhoid,2024-12-30,2025-01-13,36340,Recovered
+963,963,5,Dr. Reddy,Diabetes,2024-03-19,2024-04-08,87285,Referred
+964,964,1,Dr. Sharma,Hypertension,2024-06-07,2024-06-26,16425,Referred
+965,965,1,Dr. Bhatia,Heart Disease,2024-03-27,2024-04-07,26164,Recovered
+966,966,3,Dr. Reddy,Heart Disease,2024-06-29,2024-07-03,14323,Recovered
+967,967,6,Dr. Bhatia,COVID-19,2024-08-30,2024-09-09,62939,Death
+968,968,2,Dr. Sharma,Tuberculosis,2024-01-21,2024-02-03,42568,Referred
+969,969,4,Dr. Reddy,Hypertension,2024-08-13,2024-08-26,72171,Death
+970,970,3,Dr. Sinha,Diabetes,2024-12-15,2024-12-30,71314,Referred
+971,971,3,Dr. Iyer,Typhoid,2024-11-13,2024-11-16,37088,Death
+972,972,5,Dr. Sharma,Hypertension,2024-02-23,2024-03-05,54259,Recovered
+973,973,5,Dr. Bhatia,Diabetes,2024-04-24,2024-05-08,65591,Death
+974,974,1,Dr. Sinha,Tuberculosis,2024-08-27,2024-09-15,65929,Recovered
+975,975,1,Dr. Kapoor,Diabetes,2024-07-22,2024-08-06,31145,Referred
+976,976,3,Dr. Sharma,Heart Disease,2024-06-24,2024-07-11,32870,Death
+977,977,6,Dr. Bhatia,Diabetes,2024-05-22,2024-06-07,10017,Death
+978,978,2,Dr. Bhatia,Hypertension,2024-11-23,2024-12-01,46967,Death
+979,979,1,Dr. Reddy,Migraine,2024-02-01,2024-02-14,61375,Referred
+980,980,2,Dr. Sharma,Asthma,2024-01-12,2024-01-27,40369,Referred
+981,981,6,Dr. Kapoor,Diabetes,2024-03-13,2024-03-17,40901,Referred
+982,982,1,Dr. Sinha,Tuberculosis,2024-08-02,2024-08-20,33063,Death
+983,983,3,Dr. Kapoor,Typhoid,2024-02-17,2024-03-03,49829,Referred
+984,984,2,Dr. Kapoor,Heart Disease,2024-08-02,2024-08-19,67324,Death
+985,985,6,Dr. Kapoor,Migraine,2024-06-30,2024-07-20,56005,Recovered
+986,986,5,Dr. Reddy,Asthma,2024-02-09,2024-02-29,85807,Recovered
+987,987,3,Dr. Iyer,Heart Disease,2024-01-08,2024-01-14,65117,Recovered
+988,988,4,Dr. Sinha,Diabetes,2024-12-11,2024-12-26,39446,Death
+989,989,6,Dr. Sharma,Tuberculosis,2024-03-05,2024-03-21,88744,Death
+990,990,1,Dr. Sharma,Asthma,2024-04-06,2024-04-21,96284,Death
+991,991,2,Dr. Reddy,Migraine,2024-04-20,2024-05-03,32494,Recovered
+992,992,6,Dr. Reddy,Typhoid,2024-07-08,2024-07-21,7122,Referred
+993,993,3,Dr. Reddy,Diabetes,2024-12-24,2025-01-10,90054,Referred
+994,994,4,Dr. Bhatia,Heart Disease,2024-06-29,2024-07-18,60816,Death
+995,995,3,Dr. Sharma,Hypertension,2024-08-22,2024-09-06,53905,Recovered
+996,996,5,Dr. Reddy,Hypertension,2024-10-04,2024-10-19,55012,Referred
+997,997,6,Dr. Iyer,Migraine,2024-11-20,2024-12-01,97024,Death
+998,998,1,Dr. Sharma,Diabetes,2024-02-15,2024-02-17,85774,Referred
+999,999,1,Dr. Bhatia,Diabetes,2024-11-20,2024-12-06,70976,Death
+1000,1000,1,Dr. Iyer,COVID-19,2024-08-03,2024-08-11,34213,Referred
