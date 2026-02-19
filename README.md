@@ -67,9 +67,9 @@ This project solves these issues using structured SQL analysis.
 
 The project uses three relational datasets:
 
-- patients.csv :Contains patient demographics
-- hospitals.csv : Hospital meta
-- treatments.csv : Treatment records
+- patients.csv :Contains patient demographics (id, age, gender, city)
+- hospitals.csv : Contains Hospital meta data (id, city, capacity)
+- treatments.csv : Contains Treatment records with costs & outcomes
 
 The datasets simulate healthcare operations data and are structured using primary and foreign key relationships.
 
