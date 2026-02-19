@@ -67,9 +67,9 @@ This project solves these issues using structured SQL analysis.
 
 The project uses three relational datasets:
 
-- patients.csv
-- hospitals.csv
-- treatments.csv
+- patients.csv :Contains patient demographics
+- hospitals.csv : Hospital meta
+- treatments.csv : Treatment records
 
 The datasets simulate healthcare operations data and are structured using primary and foreign key relationships.
 
@@ -109,6 +109,17 @@ Identified diseases driving higher bed occupancy.
 ## Project Files
 - Healthcare_Operations_SQL_Project.pdf (Detailed Case Study)
 - healthcare_analysis_queries.sql (Complete SQL Queries)
+
+---
+
+##  How to Run the Project
+
+1. Import the CSV files from the `datasets` folder into your SQL environment (MySQL / PostgreSQL / SQLite).
+2. Create tables using the appropriate schema.
+3. Run the queries available in `healthcare_analysis_queries.sql`.
+4. Analyze the output results to derive business insights.
+
+Note: The project is compatible with MySQL syntax.
 
 ---
 
